@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "name": "VAMPIRE",
+  "description": "A living Relationship Map of the people and institutions of Toronto.",
+  "proxyImages": true,
+  "defaultMap": "map-8Ox0rhuG",
+  "defaultPerspective": null,
+  "attributeRelevance": {
+    "faction": [
+      "Associates",
+      "Clan",
+      "Image",
+      "Quote",
+      "Subtype"
+    ],
+    "coalition": [
+      "Associates",
+      "Clan",
+      "Faction",
+      "Image",
+      "Quote",
+      "Subtype"
+    ],
+    "kindred": [
+      "Age",
+      "Associates",
+      "Childer",
+      "Clan",
+      "Faction",
+      "Generation",
+      "Humanity",
+      "Image",
+      "Quote",
+      "Sire",
+      "Status",
+      "Titles"
+    ],	
+    "mortal": [
+      "Associates",
+      "Faction",
+      "Humanity",
+      "Image",
+      "Quote",
+      "Regnant",
+      "Status",
+      "Subtype",
+      "Titles"
+    ],
+    "undefined": [
+      "Associates",
+      "Faction",
+      "Humanity",
+      "Image",
+      "Quote",
+      "Status",
+      "Subtype",
+      "Titles"
+    ]
+  },
+  "attributes": [
+    {
+      "name": "Age",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        null,
+        "Neonate",
+        "Ancilla",
+        "Elder"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Associates",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Redemption House",
+        "The Line",
+        null,
+        "Men-In-Black",
+        "Red Flag",
+        "Nightwolves",
+        "Jarvis Jacks",
+        "Daylighters",
+        "Masque",
+        "Ascetic Ministry",
+        "St. Michael's Cell"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Childer",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Clan",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Ministry",
+        "Gangrel",
+        "Malkavian",
+        "Brujah",
+        "Toreador",
+        "Nosferatu",
+        "Thin-Blooded",
+        "Ventrue",
+        "Tremere",
+        "Banu Haqim",
+        "Hecata",
+        "Lasombra"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-FMb9C57T",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Coalition",
+        "Faction",
+        "Sire/Regnant"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-WpeK3PC5",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-8HybNYYV",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Kindred",
+        "Mortal",
+        "Faction",
+        "Coalition"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Faction",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Anarchs",
+        "Independent",
+        "Camarilla",
+        "Sabbat",
+        "University of Toronto",
+        "Bookies",
+        "Second Inquisition"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Generation",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        null,
+        "Eleventh",
+        "Twelfth",
+        "Fourteenth",
+        "Thirteenth",
+        "Eighth",
+        "Tenth",
+        "Ninth"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Humanity",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Image",
+      "format": "image",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-V08LdWbp",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-f7sAFayK",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "name": "Quote",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Regnant",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Sire",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Ren",
+        null,
+        "Maxwell 'Max' Floyd",
+        "Mr. Easy",
+        "Baroness Monika Eulenberg",
+        "Prince Osborne Lowell",
+        "Cyrus Raza",
+        "Frederik Scheer, Seneschal",
+        "Alistair Etrata"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-T2XMNtE2",
+      "name": "Status",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "StatusNum",
+      "format": "number",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        1,
+        5,
+        2,
+        3,
+        0,
+        4
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Subtype",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Civilian",
+        "Ghoul",
+        "Criminal",
+        "St. Leopold",
+        "FIRSTLIGHT"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-e2ks19HO",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Titles",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [],
+  "connections": [],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-8Ox0rhuG",
+      "name": "Current",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "src": "auth:googlesheets:5514ec3469533762",
+      "defaultPerspective": "pers-UM9guBMj",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected"
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-UM9guBMj",
+      "name": "Current",
+      "style": "@controls {\r\n}\r\n\r\n@settings {\r\n  template: stakeholder;\r\n  theme: dark;\r\n}\r\n\r\nelement {\r\n  image-size: contain;\r\n  image-visibility: visible;\r\n  outline-offset: 0;\r\n  shadow-opacity: 0;\r\n  font-size: 30;\r\n  font-family: Voltaire;\r\n  shadow-color: white;\r\n}\r\n\r\nelement {\r\n  popover: \"{{label}}\";\r\n}\r\n\r\nelement[\"Quote\"] {\r\n  popover: \"<blockquote>{{quote}}</blockquote>\";\r\n}\r\n\r\nelement[\"Description\"] {\r\n  popover: \"{{description}}\";\r\n}\r\n\r\nelement[\"Quote\"]element[\"Description\"] {\r\n  popover: \"<blockquote>{{quote}}</blockquote>{{description}}\";\r\n}\r\n\r\nelement[\"Image\"] {\r\n  popover: \"{{image}}\";\r\n  popover-width: 800;\r\n}\r\n\r\nfaction {\r\n  border-width: 10;\r\n  size: 200;\r\n  font-size: 100;\r\n  text-align: center;\r\n  font-weight: bold;\r\n  shadow-opacity: 0.1;\r\n  shadow-size: 5;\r\n  label-visibility: hidden;\r\n}\r\n\r\ncoalition {\r\n  bullseye-color: transparent;\r\n  bullseye-size: 1;\r\n  color: transparent;\r\n  image-visibility: none;\r\n  size: 100;\r\n  border-width: 10;\r\n  font-size: 70;\r\n  text-align: center;\r\n}\r\n\r\nelement[\"Titles\"*=\"Autarkis\"] {\r\n  size: 100;\r\n}\r\n\r\nelement[\"Label\"=\"Camarilla\"] {\r\n  color: #FFDC95;\r\n  border-color: #724C00;\r\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/b/b6/SymbolCamarillaV5.png);\r\n  shadow-size: 4;\r\n  shadow-color: #C38200;\r\n}\r\n\r\nelement[\"Label\"=\"Mortals\"] {\r\n  color: #8E9C9A;\r\n  border-color: #334E4B;\r\n  image-url: url(https://i.pinimg.com/originals/7e/39/10/7e3910c4a662d94a2d7b463ed6c1055e.png);\r\n  shadow-size: 2.5;\r\n  shadow-color: #4E6361;\r\n}\r\n\r\nelement[\"Label\"=\"Anarchs\"] {\r\n  color: #FE94A1;\r\n  border-color: #6D000D;\r\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/d/de/AnarchV5.png);\r\n  shadow-size: 6;\r\n  shadow-color: #BB0016;\r\n}\r\n\r\nelement[\"Label\"=\"Sabbat\"] {\r\n  color: #B09EFA;\r\n  border-color: #11024E;\r\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/1/1d/LogoSectSabbat.png/revision/latest?cb=20140102051716);\r\n  shadow-size: 2;\r\n  shadow-color: #260F86;\r\n}\r\n\r\nelement[\"Label\"=\"Second Inquisition\"] {\r\n  color: #BBB897;\r\n  border-color: #E0D453;\r\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/5/59/SymbolSecondInquisition.png/revision/latest?cb=20190519043956);\r\n  shadow-size: 3;\r\n  shadow-color: #FFFCDA;\r\n}\r\n\r\nelement[\"Label\"=\"Independent\"] {\r\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/c/cc/LogoVampireAnkh.png/revision/latest?cb=20140102051635);\r\n  shadow-size: 3.5;\r\n  shadow-color: #696969;\r\n}\r\n\r\nmortal {\r\n  color: #334E4B;\r\n  border-color: #334E4B;\r\n}\r\n\r\nelement[\"Faction\"=\"Anarchs\"] {\r\n  color: #6D000D;\r\n  border-color: #6D000D;\r\n  \r\n}\r\n\r\nelement[\"Faction\"=\"Camarilla\"] {\r\n  color: #724C00;\r\n  border-color: #724C00;\r\n}\r\n\r\nelement[\"Faction\"=\"Sabbat\"] {\r\n  color: #11024E;\r\n  border-color: #11024E;\r\n}\r\n\r\nelement[\"Faction\"=\"Second Inquisition\"] {\r\n  color: #E0D453;\r\n  border-color: #E0D453;\r\n  font-color: orange;\r\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/5/59/SymbolSecondInquisition.png/revision/latest?cb=20190519043956);\r\n}\r\n\r\nelement[\"Clan\"=\"Brujah\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/0/0b/SymbolClanBrujahV5.png/revision/latest?cb=20180728213654);\r\n}\r\nelement[\"Clan\"=\"Gangrel\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/d/d8/SymbolClanGangrelV5.png/revision/latest?cb=20180728213714);\r\n}\r\nelement[\"Clan\"=\"Malkavian\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/d/d2/SymbolClanMalkavianV5.png/revision/latest?cb=20180728213734);\r\n}\r\nelement[\"Clan\"=\"Nosferatu\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/6/6e/SymbolClanNosferatuV5.png/revision/latest?cb=20180728213808);\r\n}\r\nelement[\"Clan\"=\"Toreador\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/c/c3/SymbolClanToreadorV5.png/revision/latest?cb=20180728213828);\r\n}\r\nelement[\"Clan\"=\"Tremere\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/7/7b/SymbolClanTremereV5.png/revision/latest?cb=20180728213847);\r\n}\r\nelement[\"Clan\"=\"Ventrue\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/a/ad/SymbolClanVentrueV5.png/revision/latest?cb=20180728213913);\r\n}\r\nelement[\"Clan\"=\"Lasombra\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/f/fa/LogoClanLasombraV5.png/revision/latest?cb=20190725175100);\r\n}\r\nelement[\"Clan\"=\"Tzimisce\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/8/89/LogoClanTzimisce.png/revision/latest?cb=20090120044552);\r\n}\r\nelement[\"Clan\"=\"Banu Haqim\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/1/16/SymbolClanBanuHaqim.png);\r\n}\r\nelement[\"Clan\"=\"Ministry\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/0/01/SymbolMinistryV5.png/revision/latest?cb=20190607221027);\r\n}\r\nelement[\"Clan\"=\"Hecata\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/1/1a/SymbolHecataClassic.png/revision/latest?cb=20200114211201);\r\n}\r\nelement[\"Clan\"=\"Caitiff\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/5/55/LogoBloodlineCaitiff.png/revision/latest?cb=20170811183452);\r\n}\r\nelement[\"Clan\"=\"Thin-Blooded\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/f/fc/SymbolThinBloodsV5.png/revision/latest?cb=20190725180822);\r\n}\r\nelement[\"Subtype\"=\"Ghoul\"] {\r\n\timage-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/1/13/VTMGhouls.png/revision/latest?cb=20090201223141);\r\n}\r\n\r\nconnection {\r\n  arrow-visibility: hidden;\r\n}\r\n\r\nconnection.boss {\r\n  border-width: 2;\r\n  strength: 4;\r\n  length: 2;\r\n  border-opacity: 1;\r\n  border-color: white;\r\n  arrow-visibility: visible;\r\n  arrow-color: white;\r\n  arrow-width: 6;\r\n  arrow-height: 6;\r\n}\r\n\r\nelement.pc {\r\n  size: 70;\r\n  font-size: 45;\r\n}\r\n\r\nelement.dead {\r\n  opacity: 0.3;\r\n  font-color: grey;\r\n  color: grey;\r\n}\r\n\r\n:from(kindred):to(coalition) {\r\n  display: map;\r\n  strength: 2;\r\n  length: 150;\r\n}\r\n\r\n:from(coalition):to(faction) {\r\n  display: map;\r\n  strength: 5;\r\n  length: 50;\r\n}\r\n\r\nsire/regnant {\r\n  display: map;\r\n  strength: 0;\r\n  length: 200;\r\n  style: dashed;\r\n  size: 8;\r\n  arrow-visibility: visible;\r\n  arrow-width: 4;\r\n  arrow-height: 4;\r\n}"
+    }
+  ]
+}
