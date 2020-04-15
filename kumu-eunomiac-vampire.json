@@ -1398,10 +1398,6 @@
         "subtype": "Civilian",
         "faction": "University of Toronto",
         "statusnum": 2,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 2,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
@@ -1413,10 +1409,6 @@
         "faction": "Anarchs",
         "associates": "The Line",
         "statusnum": 2,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 2,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
@@ -1429,10 +1421,6 @@
         "regnant": "Baroness Monika Eulenberg",
         "associates": "Daylighters",
         "statusnum": 0,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 0,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
@@ -1445,10 +1433,6 @@
         "regnant": "Baroness Monika Eulenberg",
         "associates": "Daylighters",
         "statusnum": 0,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 0,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
@@ -1461,10 +1445,6 @@
         "regnant": "Baroness Monika Eulenberg",
         "associates": "Daylighters",
         "statusnum": 0,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 0,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
@@ -1477,10 +1457,6 @@
         "regnant": "Baroness Monika Eulenberg",
         "associates": "Daylighters",
         "statusnum": 0,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 0,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
@@ -1491,10 +1467,6 @@
         "subtype": "Criminal",
         "faction": "Bookies",
         "statusnum": 3,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 3,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
@@ -1506,10 +1478,6 @@
         "faction": "Camarilla",
         "regnant": "Frederik Scheer, Seneschal",
         "statusnum": 0,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 0,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
@@ -1522,10 +1490,6 @@
         "titles": "High Inquisitor",
         "associates": "St. Michael's Cell",
         "statusnum": 5,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 5,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
@@ -1538,10 +1502,6 @@
         "titles": "Agent",
         "associates": "St. Michael's Cell",
         "statusnum": 3,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 3,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
@@ -1554,10 +1514,6 @@
         "titles": "Junior Agent",
         "associates": "St. Michael's Cell",
         "statusnum": 2,
-<<<<<<< HEAD
-=======
-        "statussizeoverride": 2,
->>>>>>> d606b8b98b86fdfd93f9464b4f048d5b763eb3e5
         "element type": "Mortal"
       }
     },
