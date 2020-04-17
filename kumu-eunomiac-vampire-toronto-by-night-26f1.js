@@ -1,7 +1,8 @@
+const fs = require("fs"),
 // eslint-disable-next-line no-unused-vars
-const KUMUDATA = {
+    KUMUDATA = {
         version: 1,
-        name: "VAMPIRE: Toronto By Night (26f1)",
+        name: "VAMPIRE TbN",
         description: "A living Relationship Map of all that is happening in Toronto.",
         proxyImages: true,
         defaultMap: "map-UZxllAX4",
@@ -1642,3353 +1643,7 @@ const KUMUDATA = {
                 }
             },
         ],
-        connections: [
-            {
-                _id: "conn-0BFD0oJt",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-HojD8Bj8",
-                to: "elem-i3TfghPo"
-            },
-            {
-                _id: "conn-0FmYWz0j",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-u9o2DTre",
-                to: "elem-Ct4iVKZw"
-            },
-            {
-                _id: "conn-0K8Dqiv1",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-XkNqkZGG",
-                to: "elem-P0kEQ82z"
-            },
-            {
-                _id: "conn-0wetRmpj",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-DKNUAl3j",
-                to: "elem-vW7ZJ6Zk"
-            },
-            {
-                _id: "conn-16H1wl2d",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-M14Fo6N1",
-                to: "elem-EbZYoX6M"
-            },
-            {
-                _id: "conn-1leuc2lp",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-lgEiuLTv",
-                to: "elem-qp0cI8dD"
-            },
-            {
-                _id: "conn-2AFEPfqq",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-kBeJZyWZ",
-                to: "elem-S7mTm61e"
-            },
-            {
-                _id: "conn-2Sjtc0v7",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-r0E7356g",
-                to: "elem-M14Fo6N1"
-            },
-            {
-                _id: "conn-2gZyvzSv",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-qp0cI8dD",
-                to: "elem-bM2O8jfK"
-            },
-            {
-                _id: "conn-324ho6QZ",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-ZuxCijD4",
-                to: "elem-qiC1nUCh"
-            },
-            {
-                _id: "conn-3ucbutC9",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-3JVB74Rq",
-                to: "elem-E4dCgRtJ"
-            },
-            {
-                _id: "conn-4GzYbk3m",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-AJSSxwK2",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-4IdPUFKb",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-q6140QEx",
-                to: "elem-EbZYoX6M"
-            },
-            {
-                _id: "conn-4JavUSHz",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-q6140QEx",
-                to: "elem-M14Fo6N1"
-            },
-            {
-                _id: "conn-595Qafd6",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-48X4QAA6",
-                to: "elem-gvt53mKm"
-            },
-            {
-                _id: "conn-5HxFVyLO",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-r2OyZSd6",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-5MCAPljD",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-Gx2EWq17",
-                to: "elem-2SyQOSrK"
-            },
-            {
-                _id: "conn-5Xk8tok4",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-Y83v4eK0",
-                to: "elem-xMaVpYbo"
-            },
-            {
-                _id: "conn-6PLGqwJj",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-4vwbcIOl",
-                to: "elem-EbZYoX6M"
-            },
-            {
-                _id: "conn-767gIyot",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-S7mTm61e",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-85KOiNpI",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Regnant"
-                },
-                from: "elem-oBij42Jr",
-                to: "elem-QpPLSMc0"
-            },
-            {
-                _id: "conn-99CNk1Am",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Regnant"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-oBij42Jr"
-            },
-            {
-                _id: "conn-9d579Owc",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-ZnzasEKn",
-                to: "elem-P0kEQ82z"
-            },
-            {
-                _id: "conn-9gAo8L2z",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-Ct4iVKZw",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-Afr08n8f",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-rDlYIMT8",
-                to: "elem-XIhzrpBK"
-            },
-            {
-                _id: "conn-BUEzms8c",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Regnant"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-u9o2DTre"
-            },
-            {
-                _id: "conn-C66kW9DB",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-2SyQOSrK",
-                to: "elem-i3TfghPo"
-            },
-            {
-                _id: "conn-COw44cUJ",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-pmjK5sNF",
-                to: "elem-E4dCgRtJ"
-            },
-            {
-                _id: "conn-CZWJDw3H",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-7BCT1PIE",
-                to: "elem-bM2O8jfK"
-            },
-            {
-                _id: "conn-D1nox7Qa",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-NpYpjBkN",
-                to: "elem-bM2O8jfK"
-            },
-            {
-                _id: "conn-D3YP29k9",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-7sUTa3p3",
-                to: "elem-Z5q59lKJ"
-            },
-            {
-                _id: "conn-D9P98Dvo",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-3Rk81I5i",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-DAo91Vlz",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-Z3U2Kyd7",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-DbSpZs3L",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-wSqntIy8",
-                to: "elem-i3TfghPo"
-            },
-            {
-                _id: "conn-Ddit6OHd",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-P0kEQ82z",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-DexHFHdW",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Regnant"
-                },
-                from: "elem-JZv7MPQU",
-                to: "elem-QpPLSMc0"
-            },
-            {
-                _id: "conn-DwQVQZGN",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-UsJPURsi",
-                to: "elem-bHD13BvR"
-            },
-            {
-                _id: "conn-DwSafhZb",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-i3TfghPo",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-EGbq4gOA",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-fTzC73rY",
-                to: "elem-S7mTm61e"
-            },
-            {
-                _id: "conn-EGppMLcD",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-9wJl3bKN",
-                to: "elem-qiC1nUCh"
-            },
-            {
-                _id: "conn-ELooE5rh",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-iJ6Oj4YP",
-                to: "elem-E4dCgRtJ"
-            },
-            {
-                _id: "conn-EgjcpH9P",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Regnant"
-                },
-                from: "elem-vW7ZJ6Zk",
-                to: "elem-9CWpMWQr"
-            },
-            {
-                _id: "conn-FHGcbW2F",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-MgAs9E8z",
-                to: "elem-xMaVpYbo"
-            },
-            {
-                _id: "conn-FURMZ6bl",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-VNouRAtJ",
-                to: "elem-S7mTm61e"
-            },
-            {
-                _id: "conn-FrH8Kf0B",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-WwKpxjvp",
-                to: "elem-bM2O8jfK"
-            },
-            {
-                _id: "conn-Fyd78L63",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-bM2O8jfK",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-G7tp85Tu",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-yAq5SvWd",
-                to: "elem-XIhzrpBK"
-            },
-            {
-                _id: "conn-GONE95SL",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-cYLgsFYJ",
-                to: "elem-gRiuz7r9"
-            },
-            {
-                _id: "conn-GkgDicsg",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-2ZfwihlY",
-                to: "elem-SQUJyRdD"
-            },
-            {
-                _id: "conn-GmCaRGYW",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-qiC1nUCh",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-HTsccpoz",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-gRiuz7r9",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-I0bOCDSR",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Regnant"
-                },
-                from: "elem-9CWpMWQr",
-                to: "elem-vW7ZJ6Zk"
-            },
-            {
-                _id: "conn-ImLFBlxr",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-s9P0pamU",
-                to: "elem-Ct4iVKZw"
-            },
-            {
-                _id: "conn-JAwFutoV",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-jAZtFSJG",
-                to: "elem-fII3nKC1"
-            },
-            {
-                _id: "conn-JBp4xBDf",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-SQUJyRdD",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-JGDiTw4W",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-bM2O8jfK",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-JbsJgFbS",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-2ZfwihlY",
-                to: "elem-SwrPW5Du"
-            },
-            {
-                _id: "conn-JcO7kmWE",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-SwrPW5Du",
-                to: "elem-2ZfwihlY"
-            },
-            {
-                _id: "conn-Km6tT2pl",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-ZuxCijD4",
-                to: "elem-xcMt8om4"
-            },
-            {
-                _id: "conn-LINcrxER",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-ZrfXmSdf",
-                to: "elem-XIhzrpBK"
-            },
-            {
-                _id: "conn-LTt5MhHu",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-R4fd0WUH",
-                to: "elem-E4dCgRtJ"
-            },
-            {
-                _id: "conn-LXAL69JJ",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-509gUGFU",
-                to: "elem-fII3nKC1"
-            },
-            {
-                _id: "conn-MKM6i4Sb",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-SwrPW5Du",
-                to: "elem-SQUJyRdD"
-            },
-            {
-                _id: "conn-MqFBjc8l",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-E4dCgRtJ",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-NZq4rxlM",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-i3TfghPo",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-O9laPZ3K",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-3JVB74Rq",
-                to: "elem-2SyQOSrK"
-            },
-            {
-                _id: "conn-OJrAp8mw",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-E4dCgRtJ",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-Ob3FGPKn",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-oG2fWCPA",
-                to: "elem-6FPBRlur"
-            },
-            {
-                _id: "conn-RR6eWmZv",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-q6140QEx",
-                to: "elem-M14Fo6N1"
-            },
-            {
-                _id: "conn-SKyW7Ket",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-cYLgsFYJ",
-                to: "elem-gvt53mKm"
-            },
-            {
-                _id: "conn-SV0OJhX4",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-kBeJZyWZ",
-                to: "elem-VNouRAtJ"
-            },
-            {
-                _id: "conn-TCW4QDF8",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-Gx2EWq17",
-                to: "elem-Ct4iVKZw"
-            },
-            {
-                _id: "conn-TrTrqosN",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-oBij42Jr",
-                to: "elem-Ct4iVKZw"
-            },
-            {
-                _id: "conn-Vbsoj7iX",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-gEfLoW0o",
-                to: "elem-E4dCgRtJ"
-            },
-            {
-                _id: "conn-VeeLAwQS",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-xcMt8om4",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-W2xdqiHX",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-vCYi7JE6",
-                to: "elem-S7mTm61e"
-            },
-            {
-                _id: "conn-WLdTXIbQ",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-06Bv04rf",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-XW9k3PAi",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-B88FrjUC",
-                to: "elem-L9ICpAnS"
-            },
-            {
-                _id: "conn-XqYf0ejz",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Regnant"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-s9P0pamU"
-            },
-            {
-                _id: "conn-YBPxQmdI",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-a99tfhqN",
-                to: "elem-Z5q59lKJ"
-            },
-            {
-                _id: "conn-YQ5WaLvl",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Officer"
-                },
-                from: "elem-cq22SLcu",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-ZNCTCeuh",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Regnant"
-                },
-                from: "elem-s9P0pamU",
-                to: "elem-QpPLSMc0"
-            },
-            {
-                _id: "conn-ZgT14qJP",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-yWU8seC6",
-                to: "elem-RRbawm9W"
-            },
-            {
-                _id: "conn-ZkIWebl8",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-kBeJZyWZ",
-                to: "elem-vCYi7JE6"
-            },
-            {
-                _id: "conn-ZskuQtrM",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-LDy8Lwea",
-                to: "elem-RRbawm9W"
-            },
-            {
-                _id: "conn-ZzhQ9A1a",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-XIhzrpBK",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-aLacUevI",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-7sUTa3p3",
-                to: "elem-a99tfhqN"
-            },
-            {
-                _id: "conn-b5HCvivz",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-48X4QAA6"
-            },
-            {
-                _id: "conn-bQeFnGts",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-XIhzrpBK",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-biBgzFQE",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-Z4016NLf",
-                to: "elem-qiC1nUCh"
-            },
-            {
-                _id: "conn-clNGjXpZ",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-S7mTm61e",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-d1b9waar",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-vW7ZJ6Zk",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-dBY7DI1Q",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-bSg6Vn3k",
-                to: "elem-QpPLSMc0"
-            },
-            {
-                _id: "conn-eOnbdXlY",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-fTzC73rY",
-                to: "elem-kBeJZyWZ"
-            },
-            {
-                _id: "conn-fkLdZnt6",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-vW7ZJ6Zk",
-                to: "elem-DKNUAl3j"
-            },
-            {
-                _id: "conn-gHFA9bt1",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-ldkC4JnZ",
-                to: "elem-P0kEQ82z"
-            },
-            {
-                _id: "conn-hJxrntZr",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Regnant"
-                },
-                from: "elem-u9o2DTre",
-                to: "elem-QpPLSMc0"
-            },
-            {
-                _id: "conn-hRBBphii",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-48X4QAA6",
-                to: "elem-QpPLSMc0"
-            },
-            {
-                _id: "conn-hS0X93xI",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-vCYi7JE6",
-                to: "elem-kBeJZyWZ"
-            },
-            {
-                _id: "conn-hWkgC0xs",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-XM7Z3oB2",
-                to: "elem-fII3nKC1"
-            },
-            {
-                _id: "conn-hmFgyF7a",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-Ct4iVKZw",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-huw7Tv4P",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-i08BekxA",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-ntChar2V",
-                to: "elem-SQUJyRdD"
-            },
-            {
-                _id: "conn-iEdBgkZO",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-Y83v4eK0",
-                to: "elem-B88FrjUC"
-            },
-            {
-                _id: "conn-ig4oKiEZ",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-OESgHLev",
-                to: "elem-E4dCgRtJ"
-            },
-            {
-                _id: "conn-jDPwWDPs",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-fII3nKC1",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-jPGW04kA",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-bSg6Vn3k"
-            },
-            {
-                _id: "conn-jo4CyJfr",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-MYu9OR7K",
-                to: "elem-XIhzrpBK"
-            },
-            {
-                _id: "conn-kWz8cMuH",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-SwrPW5Du",
-                to: "elem-ntChar2V"
-            },
-            {
-                _id: "conn-lqkrauw6",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-SwrPW5Du",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-lxKjNzzz",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-iJ6Oj4YP",
-                to: "elem-2SyQOSrK"
-            },
-            {
-                _id: "conn-m75QNs4D",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-q6140QEx",
-                to: "elem-EbZYoX6M"
-            },
-            {
-                _id: "conn-mS6mwBcA",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-M14Fo6N1",
-                to: "elem-EbZYoX6M"
-            },
-            {
-                _id: "conn-mU0UZJiM",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-9kCRRaqW",
-                to: "elem-P0kEQ82z"
-            },
-            {
-                _id: "conn-nQ4ze7FX",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-JZv7MPQU",
-                to: "elem-Ct4iVKZw"
-            },
-            {
-                _id: "conn-nRQ5Lg7C",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-gRiuz7r9",
-                to: "elem-cYLgsFYJ"
-            },
-            {
-                _id: "conn-nq1c5Cip",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-aUhyDcYm",
-                to: "elem-bM2O8jfK"
-            },
-            {
-                _id: "conn-oWr1WgcP",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-IJMkc8Qp",
-                to: "elem-qiC1nUCh"
-            },
-            {
-                _id: "conn-oh0AqLkg",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-bHD13BvR",
-                to: "elem-Z5q59lKJ"
-            },
-            {
-                _id: "conn-ppQZmOPo",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-ntChar2V",
-                to: "elem-SwrPW5Du"
-            },
-            {
-                _id: "conn-pz31sC5P",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-bSg6Vn3k",
-                to: "elem-gvt53mKm"
-            },
-            {
-                _id: "conn-qNEWak1L",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Boss"
-                },
-                from: "elem-dbi4GPVq",
-                to: "elem-gvt53mKm"
-            },
-            {
-                _id: "conn-qXQ7y0lz",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-2SyQOSrK",
-                to: "elem-3JVB74Rq"
-            },
-            {
-                _id: "conn-qzZw4q1r",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Officer"
-                },
-                from: "elem-PldNEafF",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-rHhYJ2pk",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-kBeJZyWZ",
-                to: "elem-fTzC73rY"
-            },
-            {
-                _id: "conn-rRm5Axql",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-P0kEQ82z",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-sUzcUFcN",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-2SyQOSrK",
-                to: "elem-Gx2EWq17"
-            },
-            {
-                _id: "conn-uZFZbPLI",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-6FPBRlur",
-                to: "elem-L9ICpAnS"
-            },
-            {
-                _id: "conn-ujSrKfrQ",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-lgEiuLTv",
-                to: "elem-bM2O8jfK"
-            },
-            {
-                _id: "conn-vaWPn4fR",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-mYdmZEeM",
-                to: "elem-S7mTm61e"
-            },
-            {
-                _id: "conn-vm36J6r9",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-VNouRAtJ",
-                to: "elem-kBeJZyWZ"
-            },
-            {
-                _id: "conn-w7oVHToT",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-xcMt8om4",
-                to: "elem-ZuxCijD4"
-            },
-            {
-                _id: "conn-wRxwEroN",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-tsO3O6DH",
-                to: "elem-XnpyC7zX"
-            },
-            {
-                _id: "conn-wjM7Ft54",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-mYdmZEeM",
-                to: "elem-wSqntIy8"
-            },
-            {
-                _id: "conn-wlWoFq4R",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-bHD13BvR",
-                to: "elem-Z5q59lKJ"
-            },
-            {
-                _id: "conn-xU9If1es",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-gvt53mKm",
-                to: "elem-uZrkGhby"
-            },
-            {
-                _id: "conn-xn0ShGyC",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-xZYFQ1OL",
-                to: "elem-M14Fo6N1"
-            },
-            {
-                _id: "conn-xrOl8Wz2",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Regnant"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-JZv7MPQU"
-            },
-            {
-                _id: "conn-y3zOZZqV",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-oG2fWCPA",
-                to: "elem-6FPBRlur"
-            },
-            {
-                _id: "conn-yPTqb7XN",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-2SyQOSrK",
-                to: "elem-iJ6Oj4YP"
-            },
-            {
-                _id: "conn-yoSMrci3",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-pDc4YXJ2",
-                to: "elem-P0kEQ82z"
-            },
-            {
-                _id: "conn-ypxL6Ybp",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-oG2fWCPA",
-                to: "elem-L9ICpAnS"
-            },
-            {
-                _id: "conn-zAMUMt19",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Membership"
-                },
-                from: "elem-MgAs9E8z",
-                to: "elem-B88FrjUC"
-            },
-            {
-                _id: "conn-zdp8Rxh8",
-                direction: "directed",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire"
-                },
-                from: "elem-wSqntIy8",
-                to: "elem-mYdmZEeM"
-            },
-            {
-                _id: "conn-SzEZz37J",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-lgEiuLTv",
-                to: "elem-qp0cI8dD"
-            },
-            {
-                _id: "conn-lNZymX3T",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-oG2fWCPA",
-                to: "elem-kR0Mfo9m"
-            },
-            {
-                _id: "conn-1svN99RK",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-7sUTa3p3",
-                to: "elem-IGbJiiKF"
-            },
-            {
-                _id: "conn-PvC2D1zo",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-VNouRAtJ",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-xxtxo5Jy",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-WwKpxjvp",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-WYHcVrFA",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Faction"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-ziYne4rJ",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-OESgHLev",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-EUEVji7P",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-MYu9OR7K",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-eDaNfXHb",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-yAq5SvWd",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-wDFFtroo",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-9kCRRaqW",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-NuXLPfHV",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-7BCT1PIE",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-QAv6XebI",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-gEfLoW0o",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-n9cQlwuK",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-pmjK5sNF",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-3nSy2Aye",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-fTzC73rY",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-YgWoHCwg",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-mYdmZEeM",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-krER4K0E",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-iJ6Oj4YP",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-1N3844mA",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-ZnzasEKn",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-slQZYHPC",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-aUhyDcYm",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-1fUXdgxQ",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-wSqntIy8",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-ss0SKxRm",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-2SyQOSrK",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-CZBpLFhQ",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-XkNqkZGG",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-lgGs6LXY",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-rDlYIMT8",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-QJZ7eEFX",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-ldkC4JnZ",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-716A21rk",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-kBeJZyWZ",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-9b3v7Y6d",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-ZrfXmSdf",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-OihVJTcD",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-qp0cI8dD",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-ZT1xVsSL",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-pDc4YXJ2",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-wvyfXq19",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-lgEiuLTv",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-Yz3cC6cU",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-3JVB74Rq",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-NwwbP6VN",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-HojD8Bj8",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-0CWTmtQX",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-vCYi7JE6",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-b7NJDmXh",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-R4fd0WUH",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-duNm0wHB",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-Gx2EWq17",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-G0XHsuID",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-NpYpjBkN",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-sbMWgqv4",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-IAhVQY84",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-28h4sTBB",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-c0icI0ed",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-zUaG3Ndu",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-FFpqWaxu",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-RpxLH9ry",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-ez8AOTSU",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-AP5bQQIf",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-bSg6Vn3k",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-XBCmCiaK",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-48X4QAA6",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-RBurwHro",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-cYLgsFYJ",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-GVP3rVrJ",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-dbi4GPVq",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-dhABWVy8",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-MgAs9E8z",
-                to: "elem-g8RZf236"
-            },
-            {
-                _id: "conn-ipc2nGQI",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-Y83v4eK0",
-                to: "elem-g8RZf236"
-            },
-            {
-                _id: "conn-TSU4aEam",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Faction"
-                },
-                from: "elem-UsJPURsi",
-                to: "elem-KDN9KcfG"
-            },
-            {
-                _id: "conn-gVC2ZRVm",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-tsO3O6DH",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-UL6YiAIG",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-Z4016NLf",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-7y1lslk6",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-ZuxCijD4",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-mx3gFBio",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-3Rk81I5i",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-OVtKL5Cq",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-2ZfwihlY",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-1tLTd3RJ",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-Z3U2Kyd7",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-ZPkUxNIs",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-beznFmDi",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-YqMz2YRI",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-509gUGFU",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-GLLfi2Xp",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-SwrPW5Du",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-ufeHBz1C",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-9wJl3bKN",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-SPv6I9iS",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-PldNEafF",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-baekgt4i",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Faction"
-                },
-                from: "elem-vW7ZJ6Zk",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-10ubEoft",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-cq22SLcu",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-3RmDnbSL",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-IJMkc8Qp",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-6oy0CNcn",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Faction"
-                },
-                from: "elem-gRiuz7r9",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-sky5eOsv",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-DKNUAl3j",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-3sCFYUjN",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-xcMt8om4",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-hhR9yPZR",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-ntChar2V",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-eMb7dAF1",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-XM7Z3oB2",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-PGUx5fdX",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-06Bv04rf",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-LatVBKWA",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-jAZtFSJG",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-UUufXcTH",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-oG2fWCPA",
-                to: "elem-g8RZf236"
-            },
-            {
-                _id: "conn-hMySmIbU",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-LDy8Lwea",
-                to: "elem-IcikpBtA"
-            },
-            {
-                _id: "conn-akV5jZjL",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-yWU8seC6",
-                to: "elem-IcikpBtA"
-            },
-            {
-                _id: "conn-sanyh6D5",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Faction"
-                },
-                from: "elem-q6140QEx",
-                to: "elem-9Hm487O3"
-            },
-            {
-                _id: "conn-ep5yzdYV",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-r0E7356g",
-                to: "elem-9Hm487O3"
-            },
-            {
-                _id: "conn-AhaLwjSq",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Faction"
-                },
-                from: "elem-xZYFQ1OL",
-                to: "elem-9Hm487O3"
-            },
-            {
-                _id: "conn-1vAwdIZX",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-kBeJZyWZ",
-                to: "elem-VNouRAtJ"
-            },
-            {
-                _id: "conn-1LGYI3pe",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-kBeJZyWZ",
-                to: "elem-fTzC73rY"
-            },
-            {
-                _id: "conn-Gd1ufuny",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-wSqntIy8",
-                to: "elem-mYdmZEeM"
-            },
-            {
-                _id: "conn-09Z8jZ2O",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-2SyQOSrK",
-                to: "elem-iJ6Oj4YP"
-            },
-            {
-                _id: "conn-xx3mYcMP",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-2SyQOSrK",
-                to: "elem-3JVB74Rq"
-            },
-            {
-                _id: "conn-1g1A3HNM",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-kBeJZyWZ",
-                to: "elem-vCYi7JE6"
-            },
-            {
-                _id: "conn-D3DUJBB5",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-2SyQOSrK",
-                to: "elem-Gx2EWq17"
-            },
-            {
-                _id: "conn-LBMi2aAp",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-IAhVQY84"
-            },
-            {
-                _id: "conn-WKmesm8x",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-c0icI0ed"
-            },
-            {
-                _id: "conn-wJvYPtCl",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-FFpqWaxu"
-            },
-            {
-                _id: "conn-yKmG15DF",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-ez8AOTSU"
-            },
-            {
-                _id: "conn-ZbPNdIWS",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-bSg6Vn3k"
-            },
-            {
-                _id: "conn-KKMT6dxp",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-QpPLSMc0",
-                to: "elem-48X4QAA6"
-            },
-            {
-                _id: "conn-GOxhafNd",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-gRiuz7r9",
-                to: "elem-cYLgsFYJ"
-            },
-            {
-                _id: "conn-vmWWSBZs",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-SwrPW5Du",
-                to: "elem-2ZfwihlY"
-            },
-            {
-                _id: "conn-aaXKWn91",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-vW7ZJ6Zk",
-                to: "elem-beznFmDi"
-            },
-            {
-                _id: "conn-zMNesJaY",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-vW7ZJ6Zk",
-                to: "elem-DKNUAl3j"
-            },
-            {
-                _id: "conn-9HYB8M9w",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-ZuxCijD4",
-                to: "elem-xcMt8om4"
-            },
-            {
-                _id: "conn-NSDzLx74",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Sire/Regnant"
-                },
-                from: "elem-SwrPW5Du",
-                to: "elem-ntChar2V"
-            },
-            {
-                _id: "conn-eYWVlwoQ",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-VNouRAtJ",
-                to: "elem-fAtYFKNp"
-            },
-            {
-                _id: "conn-fvXRZJRY",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-WwKpxjvp",
-                to: "elem-zEy5xh7t"
-            },
-            {
-                _id: "conn-mlSY0q0Z",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-OESgHLev",
-                to: "elem-KXHg1izR"
-            },
-            {
-                _id: "conn-Pv7cF6gX",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-MYu9OR7K",
-                to: "elem-aEw2vORs"
-            },
-            {
-                _id: "conn-PLh0XHyX",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-yAq5SvWd",
-                to: "elem-aEw2vORs"
-            },
-            {
-                _id: "conn-g7MNvHfO",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Coalition"
-                },
-                from: "elem-9kCRRaqW",
-                to: "elem-drZBKlIQ"
-            },
-            {
-                _id: "conn-wBSYU0i0",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-7BCT1PIE",
-                to: "elem-zEy5xh7t"
-            },
-            {
-                _id: "conn-AKdQSsg9",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Coalition"
-                },
-                from: "elem-gEfLoW0o",
-                to: "elem-KXHg1izR"
-            },
-            {
-                _id: "conn-u40uKztj",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-pmjK5sNF",
-                to: "elem-KXHg1izR"
-            },
-            {
-                _id: "conn-4ph9O8b0",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-fTzC73rY",
-                to: "elem-fAtYFKNp"
-            },
-            {
-                _id: "conn-fwrk2gnd",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-mYdmZEeM",
-                to: "elem-fAtYFKNp"
-            },
-            {
-                _id: "conn-I0tlVlFb",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-iJ6Oj4YP",
-                to: "elem-KXHg1izR"
-            },
-            {
-                _id: "conn-bp61K7F3",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-ZnzasEKn",
-                to: "elem-drZBKlIQ"
-            },
-            {
-                _id: "conn-niQeMtFW",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-aUhyDcYm",
-                to: "elem-zEy5xh7t"
-            },
-            {
-                _id: "conn-G1aa4Zez",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Coalition"
-                },
-                from: "elem-wSqntIy8",
-                to: "elem-Se61MhBY"
-            },
-            {
-                _id: "conn-K3QUkSVA",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-2SyQOSrK",
-                to: "elem-Se61MhBY"
-            },
-            {
-                _id: "conn-RUxdQWlk",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-XkNqkZGG",
-                to: "elem-drZBKlIQ"
-            },
-            {
-                _id: "conn-kJq2hC8g",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-rDlYIMT8",
-                to: "elem-aEw2vORs"
-            },
-            {
-                _id: "conn-jt8xqItj",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-ldkC4JnZ",
-                to: "elem-drZBKlIQ"
-            },
-            {
-                _id: "conn-ymqUQBnV",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Coalition"
-                },
-                from: "elem-kBeJZyWZ",
-                to: "elem-fAtYFKNp"
-            },
-            {
-                _id: "conn-LWd86hR6",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Coalition"
-                },
-                from: "elem-ZrfXmSdf",
-                to: "elem-aEw2vORs"
-            },
-            {
-                _id: "conn-1Ten60Kj",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Coalition"
-                },
-                from: "elem-qp0cI8dD",
-                to: "elem-zEy5xh7t"
-            },
-            {
-                _id: "conn-8v8yiWvx",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-pDc4YXJ2",
-                to: "elem-drZBKlIQ"
-            },
-            {
-                _id: "conn-4ICtNCsL",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-lgEiuLTv",
-                to: "elem-zEy5xh7t"
-            },
-            {
-                _id: "conn-drKU6fIh",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-3JVB74Rq",
-                to: "elem-KXHg1izR"
-            },
-            {
-                _id: "conn-Af1t5YkY",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-HojD8Bj8",
-                to: "elem-Se61MhBY"
-            },
-            {
-                _id: "conn-NtjBw9SS",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-vCYi7JE6",
-                to: "elem-fAtYFKNp"
-            },
-            {
-                _id: "conn-Tgh91b5G",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-R4fd0WUH",
-                to: "elem-KXHg1izR"
-            },
-            {
-                _id: "conn-UZn3bc4e",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Coalition"
-                },
-                from: "elem-Gx2EWq17",
-                to: "elem-azjfGocY"
-            },
-            {
-                _id: "conn-nXaGmSF1",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-NpYpjBkN",
-                to: "elem-zEy5xh7t"
-            },
-            {
-                _id: "conn-w7RneLzb",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-IAhVQY84",
-                to: "elem-azjfGocY"
-            },
-            {
-                _id: "conn-etHnDo4R",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-c0icI0ed",
-                to: "elem-azjfGocY"
-            },
-            {
-                _id: "conn-dh8kjeW9",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-FFpqWaxu",
-                to: "elem-azjfGocY"
-            },
-            {
-                _id: "conn-iSIdbbZI",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-ez8AOTSU",
-                to: "elem-azjfGocY"
-            },
-            {
-                _id: "conn-knBaZWtX",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-bSg6Vn3k",
-                to: "elem-vXulcoEL"
-            },
-            {
-                _id: "conn-rL6JHk8W",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-48X4QAA6",
-                to: "elem-vXulcoEL"
-            },
-            {
-                _id: "conn-1wZXjJpI",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-cYLgsFYJ",
-                to: "elem-vXulcoEL"
-            },
-            {
-                _id: "conn-fsvtPkBh",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Coalition"
-                },
-                from: "elem-dbi4GPVq",
-                to: "elem-vXulcoEL"
-            },
-            {
-                _id: "conn-2Og7ocsa",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-2ZfwihlY",
-                to: "elem-PVhGBysz"
-            },
-            {
-                _id: "conn-Yxmx6CJf",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Coalition"
-                },
-                from: "elem-SwrPW5Du",
-                to: "elem-PVhGBysz"
-            },
-            {
-                _id: "conn-LnSXzNO8",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-ntChar2V",
-                to: "elem-PVhGBysz"
-            },
-            {
-                _id: "conn-zmxaAYa0",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    tags: [
-                        "Boss"
-                    ],
-                    "connection type": "Coalition"
-                },
-                from: "elem-q6140QEx",
-                to: "elem-PP8TEYLI"
-            },
-            {
-                _id: "conn-1MixnqmE",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-r0E7356g",
-                to: "elem-PP8TEYLI"
-            },
-            {
-                _id: "conn-Zl0kJnAf",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-xZYFQ1OL",
-                to: "elem-PP8TEYLI"
-            },
-            {
-                _id: "conn-ImJ1Ojju",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-18HP8rjW",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-hYH0tCmO",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-NFvA9leg",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-EtqwwxXe",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-PVhGBysz",
-                to: "elem-xRgfU4GK"
-            },
-            {
-                _id: "conn-Ck4ZArAp",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-KXHg1izR",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-PnlsQje6",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-fAtYFKNp",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-ndyZ5Iot",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-Se61MhBY",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-FR5lcUw6",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-azjfGocY",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-Oqc8IoJW",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-drZBKlIQ",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-l8IgwGNO",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-zEy5xh7t",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-esd7SCdo",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-aEw2vORs",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-MUQSW0Fn",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-PP8TEYLI",
-                to: "elem-9Hm487O3"
-            },
-            {
-                _id: "conn-iFYA0F8V",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-FF6UUK6F",
-                to: "elem-9Hm487O3"
-            },
-            {
-                _id: "conn-XFL6SU5N",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-kR0Mfo9m",
-                to: "elem-g8RZf236"
-            },
-            {
-                _id: "conn-O1MTjIWL",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Subgroup"
-                },
-                from: "elem-vXulcoEL",
-                to: "elem-OudBFMeC"
-            },
-            {
-                _id: "conn-VNrqhjge",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-Z4016NLf",
-                to: "elem-18HP8rjW"
-            },
-            {
-                _id: "conn-R5PquQcW",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-ZuxCijD4",
-                to: "elem-18HP8rjW"
-            },
-            {
-                _id: "conn-Kra3QQAp",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-509gUGFU",
-                to: "elem-NFvA9leg"
-            },
-            {
-                _id: "conn-6HV9i7Tw",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-9wJl3bKN",
-                to: "elem-18HP8rjW"
-            },
-            {
-                _id: "conn-1fZiJkD5",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-IJMkc8Qp",
-                to: "elem-18HP8rjW"
-            },
-            {
-                _id: "conn-km6fUhqf",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-XM7Z3oB2",
-                to: "elem-NFvA9leg"
-            },
-            {
-                _id: "conn-bPk2XiM6",
-                direction: "undirected",
-                delayed: false,
-                reversed: false,
-                attributes: {
-                    "connection type": "Coalition"
-                },
-                from: "elem-jAZtFSJG",
-                to: "elem-NFvA9leg"
-            }
-        ],
+        connections: [],
         loops: [],
         maps: [
             {
@@ -5005,1185 +1660,833 @@ const KUMUDATA = {
                 defaultConnectionDirection: "undirected",
                 elements: [
                     {
-                        _id: "node-kExfJjAq",
-                        position: null,
-                        pinned: false,
-                        element: "elem-VNouRAtJ"
-                    },
-                    {
-                        _id: "node-vZJme563",
-                        position: null,
-                        pinned: false,
+                        _id: "node-0XxKlrPk",
+                        position: {
+                            x: -614.4400750001749,
+                            y: 119.92928581780407
+                        },
+                        pinned: true,
                         element: "elem-WwKpxjvp"
                     },
                     {
-                        _id: "node-7vz2PzY4",
-                        position: null,
-                        pinned: false,
-                        element: "elem-QpPLSMc0"
+                        _id: "node-0y0HmYgF",
+                        position: {
+                            x: -100.74808053818175,
+                            y: 864.9986271484745
+                        },
+                        pinned: true,
+                        element: "elem-uZrkGhby"
                     },
                     {
-                        _id: "node-a3bhtU8W",
-                        position: null,
-                        pinned: false,
-                        element: "elem-OESgHLev"
+                        _id: "node-1jUmPjH8",
+                        position: {
+                            x: -1424.4380799124394,
+                            y: 1003.91843260883
+                        },
+                        pinned: true,
+                        element: "elem-bHD13BvR"
                     },
                     {
-                        _id: "node-YfKDVxzE",
-                        position: null,
-                        pinned: false,
-                        element: "elem-MYu9OR7K"
-                    },
-                    {
-                        _id: "node-AguMoV8v",
-                        position: null,
-                        pinned: false,
-                        element: "elem-yAq5SvWd"
-                    },
-                    {
-                        _id: "node-Ol4addhW",
-                        position: null,
-                        pinned: false,
-                        element: "elem-9kCRRaqW"
-                    },
-                    {
-                        _id: "node-qyXV8rGO",
-                        position: null,
-                        pinned: false,
-                        element: "elem-7BCT1PIE"
-                    },
-                    {
-                        _id: "node-MssSVCkV",
-                        position: null,
-                        pinned: false,
-                        element: "elem-gEfLoW0o"
-                    },
-                    {
-                        _id: "node-Sl4yboer",
-                        position: null,
-                        pinned: false,
-                        element: "elem-pmjK5sNF"
-                    },
-                    {
-                        _id: "node-AaEg1zwj",
-                        position: null,
-                        pinned: false,
-                        element: "elem-fTzC73rY"
-                    },
-                    {
-                        _id: "node-O4tXEqIH",
-                        position: null,
-                        pinned: false,
-                        element: "elem-mYdmZEeM"
-                    },
-                    {
-                        _id: "node-ySwtFlZy",
-                        position: null,
-                        pinned: false,
-                        element: "elem-iJ6Oj4YP"
-                    },
-                    {
-                        _id: "node-v3KirL0u",
-                        position: null,
-                        pinned: false,
-                        element: "elem-ZnzasEKn"
-                    },
-                    {
-                        _id: "node-bjL65ta9",
-                        position: null,
-                        pinned: false,
-                        element: "elem-aUhyDcYm"
-                    },
-                    {
-                        _id: "node-moItZ4Jw",
-                        position: null,
-                        pinned: false,
-                        element: "elem-wSqntIy8"
-                    },
-                    {
-                        _id: "node-3VBlVU2x",
-                        position: null,
-                        pinned: false,
-                        element: "elem-2SyQOSrK"
-                    },
-                    {
-                        _id: "node-205ueehT",
-                        position: null,
-                        pinned: false,
-                        element: "elem-XkNqkZGG"
-                    },
-                    {
-                        _id: "node-pNpgh6sa",
-                        position: null,
-                        pinned: false,
-                        element: "elem-rDlYIMT8"
-                    },
-                    {
-                        _id: "node-eWPcJto4",
-                        position: null,
-                        pinned: false,
-                        element: "elem-ldkC4JnZ"
-                    },
-                    {
-                        _id: "node-pMCQvCnU",
-                        position: null,
-                        pinned: false,
-                        element: "elem-kBeJZyWZ"
-                    },
-                    {
-                        _id: "node-Y4PEodXW",
-                        position: null,
-                        pinned: false,
-                        element: "elem-ZrfXmSdf"
-                    },
-                    {
-                        _id: "node-N0KwnDpV",
-                        position: null,
-                        pinned: false,
-                        element: "elem-qp0cI8dD"
-                    },
-                    {
-                        _id: "node-PdHBbnEe",
-                        position: null,
-                        pinned: false,
-                        element: "elem-pDc4YXJ2"
-                    },
-                    {
-                        _id: "node-tfo2dgjP",
-                        position: null,
-                        pinned: false,
-                        element: "elem-3JVB74Rq"
-                    },
-                    {
-                        _id: "node-4sP7RPh8",
-                        position: null,
-                        pinned: false,
-                        element: "elem-HojD8Bj8"
-                    },
-                    {
-                        _id: "node-dbvtBtjc",
-                        position: null,
-                        pinned: false,
-                        element: "elem-vCYi7JE6"
-                    },
-                    {
-                        _id: "node-B7jKWfjq",
-                        position: null,
-                        pinned: false,
-                        element: "elem-R4fd0WUH"
-                    },
-                    {
-                        _id: "node-PhnPmE0c",
-                        position: null,
-                        pinned: false,
-                        element: "elem-Gx2EWq17"
-                    },
-                    {
-                        _id: "node-E4e7MXk8",
-                        position: null,
-                        pinned: false,
-                        element: "elem-NpYpjBkN"
-                    },
-                    {
-                        _id: "node-jc8VX6ty",
-                        position: null,
-                        pinned: false,
-                        element: "elem-bSg6Vn3k"
-                    },
-                    {
-                        _id: "node-xr332XAM",
-                        position: null,
-                        pinned: false,
-                        element: "elem-48X4QAA6"
-                    },
-                    {
-                        _id: "node-DAaKOHBR",
-                        position: null,
-                        pinned: false,
-                        element: "elem-cYLgsFYJ"
-                    },
-                    {
-                        _id: "node-O9wSND2V",
-                        position: null,
-                        pinned: false,
-                        element: "elem-dbi4GPVq"
-                    },
-                    {
-                        _id: "node-RcZQAGLY",
-                        position: null,
-                        pinned: false,
-                        element: "elem-MgAs9E8z"
-                    },
-                    {
-                        _id: "node-9wwgAIfT",
-                        position: null,
-                        pinned: false,
-                        element: "elem-Y83v4eK0"
-                    },
-                    {
-                        _id: "node-rS0ZSg1T",
-                        position: null,
-                        pinned: false,
-                        element: "elem-tsO3O6DH"
-                    },
-                    {
-                        _id: "node-lFsvZJSu",
-                        position: null,
-                        pinned: false,
-                        element: "elem-Z4016NLf"
-                    },
-                    {
-                        _id: "node-wWSYa3OK",
-                        position: null,
-                        pinned: false,
-                        element: "elem-ZuxCijD4"
-                    },
-                    {
-                        _id: "node-yGn4Vml2",
-                        position: null,
-                        pinned: false,
-                        element: "elem-3Rk81I5i"
-                    },
-                    {
-                        _id: "node-EUT0fIe1",
-                        position: null,
-                        pinned: false,
-                        element: "elem-2ZfwihlY"
-                    },
-                    {
-                        _id: "node-9APvENZQ",
-                        position: null,
-                        pinned: false,
-                        element: "elem-Z3U2Kyd7"
-                    },
-                    {
-                        _id: "node-cuMMcTsN",
-                        position: null,
-                        pinned: false,
-                        element: "elem-509gUGFU"
-                    },
-                    {
-                        _id: "node-hOizLc9K",
-                        position: null,
-                        pinned: false,
-                        element: "elem-SwrPW5Du"
-                    },
-                    {
-                        _id: "node-tXRCZAR0",
-                        position: null,
-                        pinned: false,
-                        element: "elem-9wJl3bKN"
-                    },
-                    {
-                        _id: "node-AzijxXqC",
-                        position: null,
-                        pinned: false,
-                        element: "elem-PldNEafF"
-                    },
-                    {
-                        _id: "node-ZcMYM9hp",
-                        position: null,
-                        pinned: false,
-                        element: "elem-vW7ZJ6Zk"
-                    },
-                    {
-                        _id: "node-0sNHhuT7",
-                        position: null,
-                        pinned: false,
-                        element: "elem-cq22SLcu"
-                    },
-                    {
-                        _id: "node-ymI8OnRg",
-                        position: null,
-                        pinned: false,
-                        element: "elem-IJMkc8Qp"
-                    },
-                    {
-                        _id: "node-Wkzt6XBS",
-                        position: null,
-                        pinned: false,
-                        element: "elem-gRiuz7r9"
-                    },
-                    {
-                        _id: "node-Ajf2Zfw2",
-                        position: null,
-                        pinned: false,
-                        element: "elem-DKNUAl3j"
-                    },
-                    {
-                        _id: "node-XvTH3f9b",
-                        position: null,
-                        pinned: false,
-                        element: "elem-xcMt8om4"
-                    },
-                    {
-                        _id: "node-LeCsnLtT",
-                        position: null,
-                        pinned: false,
-                        element: "elem-ntChar2V"
-                    },
-                    {
-                        _id: "node-rIhhhWjK",
-                        position: null,
-                        pinned: false,
+                        _id: "node-271fhJgB",
+                        position: {
+                            x: 392.08013284781083,
+                            y: -965.5606921318206
+                        },
+                        pinned: true,
                         element: "elem-XM7Z3oB2"
                     },
                     {
-                        _id: "node-ulyH5x99",
-                        position: null,
-                        pinned: false,
-                        element: "elem-06Bv04rf"
+                        _id: "node-5AEjiGg1",
+                        position: {
+                            x: 480.20947457302884,
+                            y: 59.604508289672296
+                        },
+                        pinned: true,
+                        element: "elem-MYu9OR7K"
                     },
                     {
-                        _id: "node-8AIB4Zu4",
-                        position: null,
-                        pinned: false,
-                        element: "elem-jAZtFSJG"
+                        _id: "node-5MEM0L1u",
+                        position: {
+                            x: 38.97904433112046,
+                            y: -1932.8769727399576
+                        },
+                        pinned: true,
+                        element: "elem-Z4016NLf"
                     },
                     {
-                        _id: "node-l4I3fmJL",
-                        position: null,
-                        pinned: false,
-                        element: "elem-oG2fWCPA"
-                    },
-                    {
-                        _id: "node-oFACU31p",
-                        position: null,
-                        pinned: false,
-                        element: "elem-LDy8Lwea"
-                    },
-                    {
-                        _id: "node-IsPvo4Sg",
-                        position: null,
-                        pinned: false,
-                        element: "elem-yWU8seC6"
-                    },
-                    {
-                        _id: "node-Fsy35MXs",
-                        position: null,
-                        pinned: false,
-                        element: "elem-7sUTa3p3"
-                    },
-                    {
-                        _id: "node-COHwSvhj",
-                        position: null,
-                        pinned: false,
-                        element: "elem-lgEiuLTv"
-                    },
-                    {
-                        _id: "node-5ohdyhU2",
-                        position: null,
-                        pinned: false,
-                        element: "elem-IAhVQY84"
-                    },
-                    {
-                        _id: "node-a8GPkzqB",
-                        position: null,
-                        pinned: false,
-                        element: "elem-c0icI0ed"
-                    },
-                    {
-                        _id: "node-nQCeQXcf",
-                        position: null,
-                        pinned: false,
-                        element: "elem-FFpqWaxu"
-                    },
-                    {
-                        _id: "node-FRIPMw2l",
-                        position: null,
-                        pinned: false,
-                        element: "elem-ez8AOTSU"
-                    },
-                    {
-                        _id: "node-fh1PZAcT",
-                        position: null,
-                        pinned: false,
-                        element: "elem-UsJPURsi"
-                    },
-                    {
-                        _id: "node-gjAf5gtv",
-                        position: null,
-                        pinned: false,
-                        element: "elem-beznFmDi"
-                    },
-                    {
-                        _id: "node-CVdh9nIo",
-                        position: null,
-                        pinned: false,
-                        element: "elem-q6140QEx"
-                    },
-                    {
-                        _id: "node-E4R6VR3m",
-                        position: null,
-                        pinned: false,
-                        element: "elem-r0E7356g"
-                    },
-                    {
-                        _id: "node-0g9yYCTf",
-                        position: null,
-                        pinned: false,
+                        _id: "node-6l8kzb6N",
+                        position: {
+                            x: 958.9102427037533,
+                            y: -325.2625834338655
+                        },
+                        pinned: true,
                         element: "elem-xZYFQ1OL"
                     },
                     {
-                        _id: "node-5tT6DLR8",
-                        position: null,
-                        pinned: false,
-                        element: "elem-OudBFMeC"
+                        _id: "node-7UTzVjWy",
+                        position: {
+                            x: -1202.140672871347,
+                            y: 862.7138825042989
+                        },
+                        pinned: true,
+                        element: "elem-9kCRRaqW"
                     },
                     {
-                        _id: "node-X3qTZLUi",
-                        position: null,
-                        pinned: false,
-                        element: "elem-9Hm487O3"
+                        _id: "node-8ZpjvYbv",
+                        position: {
+                            x: -740.7192314328298,
+                            y: -1254.4050131108045
+                        },
+                        pinned: true,
+                        element: "elem-ntChar2V"
                     },
                     {
-                        _id: "node-JtQXmRmE",
-                        position: null,
-                        pinned: false,
-                        element: "elem-xRgfU4GK"
+                        _id: "node-8vw5tBm6",
+                        position: {
+                            x: -818.7512500175444,
+                            y: 1647.852363448161
+                        },
+                        pinned: true,
+                        element: "elem-kBeJZyWZ"
                     },
                     {
-                        _id: "node-3nalrXQz",
-                        position: null,
-                        pinned: false,
-                        element: "elem-IcikpBtA"
+                        _id: "node-90HCZaQr",
+                        position: {
+                            x: -1612.2239744612773,
+                            y: 240.06817490189937
+                        },
+                        pinned: true,
+                        element: "elem-Y83v4eK0"
                     },
                     {
-                        _id: "node-cYbI37Kr",
-                        position: null,
-                        pinned: false,
-                        element: "elem-IGbJiiKF"
+                        _id: "node-9LTU7bck",
+                        position: {
+                            x: 9.936041945704044,
+                            y: 1695.5827648903733
+                        },
+                        pinned: true,
+                        element: "elem-2SyQOSrK"
                     },
                     {
-                        _id: "node-cLt3sKbu",
-                        position: null,
-                        pinned: false,
-                        element: "elem-KDN9KcfG"
+                        _id: "node-A4PfiYPr",
+                        position: {
+                            x: -614.772184122107,
+                            y: 1568.3606894777924
+                        },
+                        pinned: true,
+                        element: "elem-mYdmZEeM"
                     },
                     {
-                        _id: "node-gjALVaRl",
-                        position: null,
-                        pinned: false,
-                        element: "elem-g8RZf236"
+                        _id: "node-AQfFTx3N",
+                        position: {
+                            x: -861.646989197635,
+                            y: -1035.3982531197555
+                        },
+                        pinned: true,
+                        element: "elem-SQUJyRdD"
                     },
                     {
-                        _id: "node-Du45H6j7",
-                        position: null,
-                        pinned: false,
-                        element: "elem-18HP8rjW"
+                        _id: "node-AloCX0fg",
+                        position: {
+                            x: 174.12555383886263,
+                            y: -755.6737905738102
+                        },
+                        pinned: true,
+                        element: "elem-gRiuz7r9"
                     },
                     {
-                        _id: "node-3lFInifW",
-                        position: null,
-                        pinned: false,
-                        element: "elem-NFvA9leg"
+                        _id: "node-B6cwlQov",
+                        position: {
+                            x: -836.7519788662865,
+                            y: -1577.3238540950244
+                        },
+                        pinned: true,
+                        element: "elem-xcMt8om4"
                     },
                     {
-                        _id: "node-pqZt27Bt",
-                        position: null,
-                        pinned: false,
-                        element: "elem-PVhGBysz"
+                        _id: "node-BmLk5U91",
+                        position: {
+                            x: 1676.3338724989267,
+                            y: -1011.1967165350958
+                        },
+                        pinned: true,
+                        element: "elem-4vwbcIOl"
                     },
                     {
-                        _id: "node-8KM0SEz4",
-                        position: null,
-                        pinned: false,
-                        element: "elem-KXHg1izR"
+                        _id: "node-CHALVJAB",
+                        position: {
+                            x: -409.13684280827397,
+                            y: -411.06250556472395
+                        },
+                        pinned: true,
+                        element: "elem-cq22SLcu"
                     },
                     {
-                        _id: "node-CWZANZzK",
-                        position: null,
-                        pinned: false,
-                        element: "elem-fAtYFKNp"
+                        _id: "node-CHV9DAb7",
+                        position: {
+                            x: 617.765069924995,
+                            y: 861.1556993903255
+                        },
+                        pinned: true,
+                        element: "elem-E4dCgRtJ"
                     },
                     {
-                        _id: "node-ZKdOciuQ",
-                        position: null,
-                        pinned: false,
-                        element: "elem-Se61MhBY"
+                        _id: "node-CoLtj9ET",
+                        position: {
+                            x: 62.72174388612122,
+                            y: -118.89582952669815
+                        },
+                        pinned: true,
+                        element: "elem-cYLgsFYJ"
                     },
                     {
-                        _id: "node-Aeuy0j59",
-                        position: null,
-                        pinned: false,
-                        element: "elem-azjfGocY"
+                        _id: "node-D64HCCYq",
+                        position: {
+                            x: 361.7908650077971,
+                            y: 1331.0124871164346
+                        },
+                        pinned: true,
+                        element: "elem-Ct4iVKZw"
                     },
                     {
-                        _id: "node-LBDn6g4J",
-                        position: null,
-                        pinned: false,
-                        element: "elem-drZBKlIQ"
+                        _id: "node-DKhY3qJM",
+                        position: {
+                            x: 932.3221609653972,
+                            y: 1029.2299968835382
+                        },
+                        pinned: true,
+                        element: "elem-iJ6Oj4YP"
                     },
                     {
-                        _id: "node-vHKG7osi",
-                        position: null,
-                        pinned: false,
-                        element: "elem-zEy5xh7t"
+                        _id: "node-DVhO50s0",
+                        position: {
+                            x: 1062.4553431254956,
+                            y: 296.0434968392736
+                        },
+                        pinned: true,
+                        element: "elem-yWU8seC6"
                     },
                     {
-                        _id: "node-rNcyzZ2v",
-                        position: null,
-                        pinned: false,
-                        element: "elem-aEw2vORs"
+                        _id: "node-ENtcTwlY",
+                        position: {
+                            x: -111.89011979161329,
+                            y: -258.8066571520049
+                        },
+                        pinned: true,
+                        element: "elem-dbi4GPVq"
                     },
                     {
-                        _id: "node-iM52noiZ",
-                        position: null,
-                        pinned: false,
-                        element: "elem-PP8TEYLI"
+                        _id: "node-EVWsaA6x",
+                        position: {
+                            x: 414.49202547038027,
+                            y: 1127.1186166109285
+                        },
+                        pinned: true,
+                        element: "elem-u9o2DTre"
                     },
                     {
-                        _id: "node-f7P6XXVf",
-                        position: null,
-                        pinned: false,
-                        element: "elem-FF6UUK6F"
+                        _id: "node-FddhsMkh",
+                        position: {
+                            x: -822.8514258156894,
+                            y: 548.7096812126355
+                        },
+                        pinned: true,
+                        element: "elem-aUhyDcYm"
                     },
                     {
-                        _id: "node-gG9DPHjI",
-                        position: null,
-                        pinned: false,
-                        element: "elem-kR0Mfo9m"
+                        _id: "node-GK9AejJr",
+                        position: {
+                            x: -102.29936092918997,
+                            y: 1890.019405749109
+                        },
+                        pinned: true,
+                        element: "elem-wSqntIy8"
                     },
                     {
-                        _id: "node-WoFPexxV",
-                        position: null,
-                        pinned: false,
-                        element: "elem-vXulcoEL"
+                        _id: "node-IdEte55J",
+                        position: {
+                            x: 1165.2511638803185,
+                            y: 490.8332325855919
+                        },
+                        pinned: true,
+                        element: "elem-LDy8Lwea"
+                    },
+                    {
+                        _id: "node-JJYw2iAc",
+                        position: {
+                            x: 812.0167105163764,
+                            y: 1036.5011768753138
+                        },
+                        pinned: true,
+                        element: "elem-R4fd0WUH"
+                    },
+                    {
+                        _id: "node-Kj0X9g1L",
+                        position: {
+                            x: -800.7709893996482,
+                            y: 1210.5074667743274
+                        },
+                        pinned: true,
+                        element: "elem-fTzC73rY"
+                    },
+                    {
+                        _id: "node-KkSaVXKc",
+                        position: {
+                            x: -1130.543393854849,
+                            y: 1076.0021774142756
+                        },
+                        pinned: true,
+                        element: "elem-pDc4YXJ2"
+                    },
+                    {
+                        _id: "node-LuRUKqJl",
+                        position: {
+                            x: -580.5311853715045,
+                            y: -123.26706077680473
+                        },
+                        pinned: true,
+                        element: "elem-oG2fWCPA"
+                    },
+                    {
+                        _id: "node-MGnowchI",
+                        position: {
+                            x: -523.3246583726667,
+                            y: -571.8452611675915
+                        },
+                        pinned: true,
+                        element: "elem-PldNEafF"
+                    },
+                    {
+                        _id: "node-N9fJBJ8L",
+                        position: {
+                            x: 1252.0795547177988,
+                            y: -759.2544388799711
+                        },
+                        pinned: true,
+                        element: "elem-EbZYoX6M"
+                    },
+                    {
+                        _id: "node-NkIH0V48",
+                        position: {
+                            x: -512.893497476525,
+                            y: -1939.1825807181926
+                        },
+                        pinned: true,
+                        element: "elem-IJMkc8Qp"
+                    },
+                    {
+                        _id: "node-PfjfM9hV",
+                        position: {
+                            x: -1125.2336040436917,
+                            y: 730.0553367738826
+                        },
+                        pinned: true,
+                        element: "elem-XkNqkZGG"
+                    },
+                    {
+                        _id: "node-QSQpD0Qc",
+                        position: {
+                            x: -992.1259890688995,
+                            y: -374.3145067541654
+                        },
+                        pinned: true,
+                        element: "elem-6FPBRlur"
+                    },
+                    {
+                        _id: "node-QVPW7r3Z",
+                        position: {
+                            x: 574.0415328792152,
+                            y: 1310.356668924796
+                        },
+                        pinned: true,
+                        element: "elem-JZv7MPQU"
+                    },
+                    {
+                        _id: "node-QXm44Tdz",
+                        position: {
+                            x: 300.2504068752127,
+                            y: -1444.0505128504744
+                        },
+                        pinned: true,
+                        element: "elem-06Bv04rf"
+                    },
+                    {
+                        _id: "node-Qr2hYgBD",
+                        position: {
+                            x: -573.7963999345269,
+                            y: -1107.5463292611125
+                        },
+                        pinned: true,
+                        element: "elem-SwrPW5Du"
+                    },
+                    {
+                        _id: "node-QzIrzZ0Z",
+                        position: {
+                            x: -799.0312422580593,
+                            y: 1443.3953416640663
+                        },
+                        pinned: true,
+                        element: "elem-vCYi7JE6"
+                    },
+                    {
+                        _id: "node-Rfk9bcvf",
+                        position: {
+                            x: 40.84579086381519,
+                            y: -1645.4816988874538
+                        },
+                        pinned: true,
+                        element: "elem-9wJl3bKN"
+                    },
+                    {
+                        _id: "node-SaYrDOL7",
+                        position: {
+                            x: -1872.470717487423,
+                            y: -261.8684332182129
+                        },
+                        pinned: true,
+                        element: "elem-MgAs9E8z"
+                    },
+                    {
+                        _id: "node-Ss38c1Tp",
+                        position: {
+                            x: 668.221878791734,
+                            y: 284.06266874971044
+                        },
+                        pinned: true,
+                        element: "elem-rDlYIMT8"
+                    },
+                    {
+                        _id: "node-TKptnbLj",
+                        position: {
+                            x: -827.043549953843,
+                            y: 867.6184668514525
+                        },
+                        pinned: true,
+                        element: "elem-P0kEQ82z"
+                    },
+                    {
+                        _id: "node-TiXqxtXA",
+                        position: {
+                            x: -798.401585168213,
+                            y: 1328.195271854171
+                        },
+                        pinned: true,
+                        element: "elem-VNouRAtJ"
+                    },
+                    {
+                        _id: "node-UOJDBDOb",
+                        position: {
+                            x: -656.5443448233224,
+                            y: -913.6742008712914
+                        },
+                        pinned: true,
+                        element: "elem-2ZfwihlY"
+                    },
+                    {
+                        _id: "node-UbXJMKM2",
+                        position: {
+                            x: 623.7905076935002,
+                            y: 1576.2764854007396
+                        },
+                        pinned: true,
+                        element: "elem-Gx2EWq17"
+                    },
+                    {
+                        _id: "node-V4rO4zOq",
+                        position: {
+                            x: 806.3737778488096,
+                            y: 1143.903897603503
+                        },
+                        pinned: true,
+                        element: "elem-3JVB74Rq"
+                    },
+                    {
+                        _id: "node-WrPqQ8YW",
+                        position: {
+                            x: -233.54568690275272,
+                            y: -1768.384699547178
+                        },
+                        pinned: true,
+                        element: "elem-qiC1nUCh"
+                    },
+                    {
+                        _id: "node-XHYjpgeh",
+                        position: {
+                            x: -115.59328217347421,
+                            y: 175.48108129185547
+                        },
+                        pinned: true,
+                        element: "elem-gvt53mKm"
+                    },
+                    {
+                        _id: "node-XvrG9L7f",
+                        position: {
+                            x: 344.89297968868476,
+                            y: 390.6522795834462
+                        },
+                        pinned: true,
+                        element: "elem-XIhzrpBK"
+                    },
+                    {
+                        _id: "node-XzyHHrTo",
+                        position: {
+                            x: 388.12639240929275,
+                            y: -1270.1797087655855
+                        },
+                        pinned: true,
+                        element: "elem-509gUGFU"
+                    },
+                    {
+                        _id: "node-Y8lrMhWp",
+                        position: {
+                            x: -1433.963748070695,
+                            y: -140.3847459354746
+                        },
+                        pinned: true,
+                        element: "elem-L9ICpAnS"
+                    },
+                    {
+                        _id: "node-YXkmaVYn",
+                        position: {
+                            x: -1761.2576930187458,
+                            y: 827.6620690875717
+                        },
+                        pinned: true,
+                        element: "elem-UsJPURsi"
+                    },
+                    {
+                        _id: "node-Yzasq03N",
+                        position: {
+                            x: 164.57982713757568,
+                            y: -1138.2298594195258
+                        },
+                        pinned: true,
+                        element: "elem-fII3nKC1"
+                    },
+                    {
+                        _id: "node-Zxr37AsL",
+                        position: {
+                            x: 294.69955475570777,
+                            y: 1136.5645572665946
+                        },
+                        pinned: true,
+                        element: "elem-oBij42Jr"
+                    },
+                    {
+                        _id: "node-a3I7qysY",
+                        position: {
+                            x: 510.9219854824502,
+                            y: 1192.6843578729538
+                        },
+                        pinned: true,
+                        element: "elem-s9P0pamU"
+                    },
+                    {
+                        _id: "node-b2cx0vNe",
+                        position: {
+                            x: 791.3131453205888,
+                            y: -496.0311906217805
+                        },
+                        pinned: true,
+                        element: "elem-M14Fo6N1"
+                    },
+                    {
+                        _id: "node-bSY7uavU",
+                        position: {
+                            x: 1488.0487240585335,
+                            y: 226.29903687711953
+                        },
+                        pinned: true,
+                        element: "elem-RRbawm9W"
+                    },
+                    {
+                        _id: "node-co0ORcFT",
+                        position: {
+                            x: 1018.7205243188515,
+                            y: 865.0376921770137
+                        },
+                        pinned: true,
+                        element: "elem-gEfLoW0o"
+                    },
+                    {
+                        _id: "node-dNgNwvKj",
+                        position: {
+                            x: -286.322062266569,
+                            y: -116.32084340535278
+                        },
+                        pinned: true,
+                        element: "elem-bSg6Vn3k"
+                    },
+                    {
+                        _id: "node-dUmy84W4",
+                        position: {
+                            x: -1128.4431048830872,
+                            y: 960.4793301435423
+                        },
+                        pinned: true,
+                        element: "elem-ZnzasEKn"
+                    },
+                    {
+                        _id: "node-dwvEP3Bb",
+                        position: {
+                            x: 725.3203619220687,
+                            y: 603.7710250635641
+                        },
+                        pinned: true,
+                        element: "elem-OESgHLev"
+                    },
+                    {
+                        _id: "node-e5HAWguU",
+                        position: {
+                            x: -832.4785603839589,
+                            y: -1418.9214902396914
+                        },
+                        pinned: true,
+                        element: "elem-3Rk81I5i"
+                    },
+                    {
+                        _id: "node-eRP3FUeY",
+                        position: {
+                            x: -600.8917509583495,
+                            y: 348.47370854460684
+                        },
+                        pinned: true,
+                        element: "elem-bM2O8jfK"
+                    },
+                    {
+                        _id: "node-i1lSx5f4",
+                        position: {
+                            x: -677.2744843013709,
+                            y: 594.1753400294903
+                        },
+                        pinned: true,
+                        element: "elem-NpYpjBkN"
+                    },
+                    {
+                        _id: "node-iI0RdarW",
+                        position: {
+                            x: 1012.2274633786031,
+                            y: -1162.9532835000584
+                        },
+                        pinned: true,
+                        element: "elem-q6140QEx"
+                    },
+                    {
+                        _id: "node-iTOox6g0",
+                        position: {
+                            x: -216.36530815311215,
+                            y: 1695.8496738581364
+                        },
+                        pinned: true,
+                        element: "elem-HojD8Bj8"
+                    },
+                    {
+                        _id: "node-ikqM40rm",
+                        position: {
+                            x: 388.3738272633463,
+                            y: -1116.4391638831012
+                        },
+                        pinned: true,
+                        element: "elem-jAZtFSJG"
+                    },
+                    {
+                        _id: "node-j4b9L2G9",
+                        position: {
+                            x: -1127.360880158121,
+                            y: 1214.4593459793546
+                        },
+                        pinned: true,
+                        element: "elem-ldkC4JnZ"
+                    },
+                    {
+                        _id: "node-jQWHZP3K",
+                        position: {
+                            x: -1403.701828525295,
+                            y: 1477.018939979056
+                        },
+                        pinned: true,
+                        element: "elem-a99tfhqN"
+                    },
+                    {
+                        _id: "node-jXWBHTKo",
+                        position: {
+                            x: 299.7527022837102,
+                            y: -1602.692695230184
+                        },
+                        pinned: true,
+                        element: "elem-tsO3O6DH"
+                    },
+                    {
+                        _id: "node-jqasGEnT",
+                        position: {
+                            x: 848.7875513888723,
+                            y: 726.0835856242448
+                        },
+                        pinned: true,
+                        element: "elem-pmjK5sNF"
+                    },
+                    {
+                        _id: "node-lXQl3vOZ",
+                        position: {
+                            x: -875.5310635236207,
+                            y: 85.7830612752413
+                        },
+                        pinned: true,
+                        element: "elem-qp0cI8dD"
+                    },
+                    {
+                        _id: "node-mjA4Jv3J",
+                        position: {
+                            x: -509.8608457750677,
+                            y: -1650.2732265952538
+                        },
+                        pinned: true,
+                        element: "elem-ZuxCijD4"
+                    },
+                    {
+                        _id: "node-nLqXei9u",
+                        position: {
+                            x: 1051.5047302417652,
+                            y: -498.38168919360487
+                        },
+                        pinned: true,
+                        element: "elem-r0E7356g"
+                    },
+                    {
+                        _id: "node-njCFiYJu",
+                        position: {
+                            x: -102.87568889839447,
+                            y: 1527.8830836718626
+                        },
+                        pinned: true,
+                        element: "elem-i3TfghPo"
+                    },
+                    {
+                        _id: "node-no19j7iU",
+                        position: {
+                            x: 325.052032684632,
+                            y: 83.08709534365893
+                        },
+                        pinned: true,
+                        element: "elem-yAq5SvWd"
+                    },
+                    {
+                        _id: "node-pRLbVxC1",
+                        position: {
+                            x: -827.191263857404,
+                            y: -646.0897823652177
+                        },
+                        pinned: true,
+                        element: "elem-Z3U2Kyd7"
+                    },
+                    {
+                        _id: "node-punDl7Ox",
+                        position: {
+                            x: -410.61273425041117,
+                            y: 81.47971818135163
+                        },
+                        pinned: true,
+                        element: "elem-48X4QAA6"
+                    },
+                    {
+                        _id: "node-q5yvbMxs",
+                        position: {
+                            x: -878.163134665645,
+                            y: 389.35909242017203
+                        },
+                        pinned: true,
+                        element: "elem-7BCT1PIE"
+                    },
+                    {
+                        _id: "node-rQyhuo2g",
+                        position: {
+                            x: 73.14519068180388,
+                            y: 389.9930008518328
+                        },
+                        pinned: true,
+                        element: "elem-QpPLSMc0"
+                    },
+                    {
+                        _id: "node-satHzNR0",
+                        position: {
+                            x: -874.2435878466664,
+                            y: -53.63309337828225
+                        },
+                        pinned: true,
+                        element: "elem-lgEiuLTv"
+                    },
+                    {
+                        _id: "node-ssxlkDMP",
+                        position: {
+                            x: -47.73935734416381,
+                            y: -747.9157987004621
+                        },
+                        pinned: true,
+                        element: "elem-vW7ZJ6Zk"
+                    },
+                    {
+                        _id: "node-tguyqF67",
+                        position: {
+                            x: -560.9171607750776,
+                            y: 1336.8052491886162
+                        },
+                        pinned: true,
+                        element: "elem-S7mTm61e"
+                    },
+                    {
+                        _id: "node-tpJUCe1D",
+                        position: {
+                            x: -240.62419158322598,
+                            y: -1235.3134301544815
+                        },
+                        pinned: true,
+                        element: "elem-XnpyC7zX"
+                    },
+                    {
+                        _id: "node-uliwZ6ZP",
+                        position: {
+                            x: -262.41202461095776,
+                            y: -454.0035671683261
+                        },
+                        pinned: true,
+                        element: "elem-DKNUAl3j"
+                    },
+                    {
+                        _id: "node-us4B2pnV",
+                        position: {
+                            x: -1401.6268986615798,
+                            y: 1192.6674155927756
+                        },
+                        pinned: true,
+                        element: "elem-7sUTa3p3"
+                    },
+                    {
+                        _id: "node-wxLMRkZg",
+                        position: {
+                            x: -248.59184567350434,
+                            y: -712.6114536506067
+                        },
+                        pinned: true,
+                        element: "elem-9CWpMWQr"
+                    },
+                    {
+                        _id: "node-xebh9l7y",
+                        position: {
+                            x: 635.422359926222,
+                            y: 99.18814366527035
+                        },
+                        pinned: true,
+                        element: "elem-ZrfXmSdf"
                     }
                 ],
-                connections: [
-                    {
-                        _id: "edge-tjyLuEsz",
-                        connection: "conn-SzEZz37J"
-                    },
-                    {
-                        _id: "edge-sqR5rzjA",
-                        connection: "conn-lNZymX3T"
-                    },
-                    {
-                        _id: "edge-8I5xwxFo",
-                        connection: "conn-1svN99RK"
-                    },
-                    {
-                        _id: "edge-nAGc3lqn",
-                        connection: "conn-PvC2D1zo"
-                    },
-                    {
-                        _id: "edge-GfTN0vNc",
-                        connection: "conn-xxtxo5Jy"
-                    },
-                    {
-                        _id: "edge-Hh3fcS3g",
-                        connection: "conn-WYHcVrFA"
-                    },
-                    {
-                        _id: "edge-vZVvHFqC",
-                        connection: "conn-ziYne4rJ"
-                    },
-                    {
-                        _id: "edge-QtTBxBWx",
-                        connection: "conn-EUEVji7P"
-                    },
-                    {
-                        _id: "edge-y5mqrg8X",
-                        connection: "conn-eDaNfXHb"
-                    },
-                    {
-                        _id: "edge-6N5f9Utr",
-                        connection: "conn-wDFFtroo"
-                    },
-                    {
-                        _id: "edge-5L2Ebio5",
-                        connection: "conn-NuXLPfHV"
-                    },
-                    {
-                        _id: "edge-2uVnDTTc",
-                        connection: "conn-QAv6XebI"
-                    },
-                    {
-                        _id: "edge-Qba0T9jD",
-                        connection: "conn-n9cQlwuK"
-                    },
-                    {
-                        _id: "edge-GLHYXhdM",
-                        connection: "conn-3nSy2Aye"
-                    },
-                    {
-                        _id: "edge-x0U6WB11",
-                        connection: "conn-YgWoHCwg"
-                    },
-                    {
-                        _id: "edge-5kmu3G9w",
-                        connection: "conn-krER4K0E"
-                    },
-                    {
-                        _id: "edge-XEDhcbNV",
-                        connection: "conn-1N3844mA"
-                    },
-                    {
-                        _id: "edge-aCnPnIZP",
-                        connection: "conn-slQZYHPC"
-                    },
-                    {
-                        _id: "edge-rgOtxaxN",
-                        connection: "conn-1fUXdgxQ"
-                    },
-                    {
-                        _id: "edge-oXzDdKis",
-                        connection: "conn-ss0SKxRm"
-                    },
-                    {
-                        _id: "edge-pnH9mr0b",
-                        connection: "conn-CZBpLFhQ"
-                    },
-                    {
-                        _id: "edge-2BNfWuwX",
-                        connection: "conn-lgGs6LXY"
-                    },
-                    {
-                        _id: "edge-meqn4jaw",
-                        connection: "conn-QJZ7eEFX"
-                    },
-                    {
-                        _id: "edge-YDPH6E6S",
-                        connection: "conn-716A21rk"
-                    },
-                    {
-                        _id: "edge-SDnmlZ5D",
-                        connection: "conn-9b3v7Y6d"
-                    },
-                    {
-                        _id: "edge-qiRx0usT",
-                        connection: "conn-OihVJTcD"
-                    },
-                    {
-                        _id: "edge-eawT6wfI",
-                        connection: "conn-ZT1xVsSL"
-                    },
-                    {
-                        _id: "edge-UqTJLNLk",
-                        connection: "conn-wvyfXq19"
-                    },
-                    {
-                        _id: "edge-vQykTqeP",
-                        connection: "conn-Yz3cC6cU"
-                    },
-                    {
-                        _id: "edge-qEZwol1a",
-                        connection: "conn-NwwbP6VN"
-                    },
-                    {
-                        _id: "edge-FIgi8D5I",
-                        connection: "conn-0CWTmtQX"
-                    },
-                    {
-                        _id: "edge-4GxcY24x",
-                        connection: "conn-b7NJDmXh"
-                    },
-                    {
-                        _id: "edge-MMVHLsdm",
-                        connection: "conn-duNm0wHB"
-                    },
-                    {
-                        _id: "edge-a4L9x71x",
-                        connection: "conn-G0XHsuID"
-                    },
-                    {
-                        _id: "edge-x0l7wh7V",
-                        connection: "conn-sbMWgqv4"
-                    },
-                    {
-                        _id: "edge-AG4nbJ4t",
-                        connection: "conn-28h4sTBB"
-                    },
-                    {
-                        _id: "edge-y3qeIAyT",
-                        connection: "conn-zUaG3Ndu"
-                    },
-                    {
-                        _id: "edge-J27rOH7J",
-                        connection: "conn-RpxLH9ry"
-                    },
-                    {
-                        _id: "edge-SZ1azwnH",
-                        connection: "conn-AP5bQQIf"
-                    },
-                    {
-                        _id: "edge-L3HIsoNf",
-                        connection: "conn-XBCmCiaK"
-                    },
-                    {
-                        _id: "edge-Vp01cwg9",
-                        connection: "conn-RBurwHro"
-                    },
-                    {
-                        _id: "edge-nx50O4WF",
-                        connection: "conn-GVP3rVrJ"
-                    },
-                    {
-                        _id: "edge-wkFIIn3w",
-                        connection: "conn-dhABWVy8"
-                    },
-                    {
-                        _id: "edge-SUSaJ0WW",
-                        connection: "conn-ipc2nGQI"
-                    },
-                    {
-                        _id: "edge-WvGOSm7o",
-                        connection: "conn-TSU4aEam"
-                    },
-                    {
-                        _id: "edge-9YGILZxj",
-                        connection: "conn-gVC2ZRVm"
-                    },
-                    {
-                        _id: "edge-wjCH0arC",
-                        connection: "conn-UL6YiAIG"
-                    },
-                    {
-                        _id: "edge-B7VWCCNo",
-                        connection: "conn-7y1lslk6"
-                    },
-                    {
-                        _id: "edge-FkAEYUPk",
-                        connection: "conn-mx3gFBio"
-                    },
-                    {
-                        _id: "edge-40oqQCtJ",
-                        connection: "conn-OVtKL5Cq"
-                    },
-                    {
-                        _id: "edge-pJbv45kk",
-                        connection: "conn-1tLTd3RJ"
-                    },
-                    {
-                        _id: "edge-SvIVuiUj",
-                        connection: "conn-ZPkUxNIs"
-                    },
-                    {
-                        _id: "edge-9LUzLctg",
-                        connection: "conn-YqMz2YRI"
-                    },
-                    {
-                        _id: "edge-VeXz6G6o",
-                        connection: "conn-GLLfi2Xp"
-                    },
-                    {
-                        _id: "edge-k9uN3Pwf",
-                        connection: "conn-ufeHBz1C"
-                    },
-                    {
-                        _id: "edge-RSsWwiNJ",
-                        connection: "conn-SPv6I9iS"
-                    },
-                    {
-                        _id: "edge-Ei0eMBln",
-                        connection: "conn-baekgt4i"
-                    },
-                    {
-                        _id: "edge-8w3qjH4I",
-                        connection: "conn-10ubEoft"
-                    },
-                    {
-                        _id: "edge-Yw0ZR9KE",
-                        connection: "conn-3RmDnbSL"
-                    },
-                    {
-                        _id: "edge-B9FrTLKd",
-                        connection: "conn-6oy0CNcn"
-                    },
-                    {
-                        _id: "edge-K6roF9T9",
-                        connection: "conn-sky5eOsv"
-                    },
-                    {
-                        _id: "edge-XaXwE7OJ",
-                        connection: "conn-3sCFYUjN"
-                    },
-                    {
-                        _id: "edge-3EOoDK55",
-                        connection: "conn-hhR9yPZR"
-                    },
-                    {
-                        _id: "edge-Pgk4m4AW",
-                        connection: "conn-eMb7dAF1"
-                    },
-                    {
-                        _id: "edge-vOYFPNdr",
-                        connection: "conn-PGUx5fdX"
-                    },
-                    {
-                        _id: "edge-uZJ44ofN",
-                        connection: "conn-LatVBKWA"
-                    },
-                    {
-                        _id: "edge-tZICtIlf",
-                        connection: "conn-UUufXcTH"
-                    },
-                    {
-                        _id: "edge-mHd0YDdx",
-                        connection: "conn-hMySmIbU"
-                    },
-                    {
-                        _id: "edge-2aN8ftho",
-                        connection: "conn-akV5jZjL"
-                    },
-                    {
-                        _id: "edge-reWadsfw",
-                        connection: "conn-sanyh6D5"
-                    },
-                    {
-                        _id: "edge-mH3IEI8g",
-                        connection: "conn-ep5yzdYV"
-                    },
-                    {
-                        _id: "edge-xgPGlwcW",
-                        connection: "conn-AhaLwjSq"
-                    },
-                    {
-                        _id: "edge-dKLsqwFc",
-                        connection: "conn-1vAwdIZX"
-                    },
-                    {
-                        _id: "edge-vV3Tr54E",
-                        connection: "conn-1LGYI3pe"
-                    },
-                    {
-                        _id: "edge-H4CuxXgv",
-                        connection: "conn-Gd1ufuny"
-                    },
-                    {
-                        _id: "edge-RK828TfZ",
-                        connection: "conn-09Z8jZ2O"
-                    },
-                    {
-                        _id: "edge-rnkvLYVB",
-                        connection: "conn-xx3mYcMP"
-                    },
-                    {
-                        _id: "edge-F88adgQt",
-                        connection: "conn-1g1A3HNM"
-                    },
-                    {
-                        _id: "edge-Qqf8irU4",
-                        connection: "conn-D3DUJBB5"
-                    },
-                    {
-                        _id: "edge-pxXhvJT8",
-                        connection: "conn-LBMi2aAp"
-                    },
-                    {
-                        _id: "edge-mOq8P6oV",
-                        connection: "conn-WKmesm8x"
-                    },
-                    {
-                        _id: "edge-wV1gKaDg",
-                        connection: "conn-wJvYPtCl"
-                    },
-                    {
-                        _id: "edge-6WMT3zcl",
-                        connection: "conn-yKmG15DF"
-                    },
-                    {
-                        _id: "edge-IO05KPni",
-                        connection: "conn-ZbPNdIWS"
-                    },
-                    {
-                        _id: "edge-CrObEH7A",
-                        connection: "conn-KKMT6dxp"
-                    },
-                    {
-                        _id: "edge-03ECjMcg",
-                        connection: "conn-GOxhafNd"
-                    },
-                    {
-                        _id: "edge-z8oLbxJx",
-                        connection: "conn-vmWWSBZs"
-                    },
-                    {
-                        _id: "edge-NGa3wOL6",
-                        connection: "conn-aaXKWn91"
-                    },
-                    {
-                        _id: "edge-oFpGSUX2",
-                        connection: "conn-zMNesJaY"
-                    },
-                    {
-                        _id: "edge-AevVXxzU",
-                        connection: "conn-9HYB8M9w"
-                    },
-                    {
-                        _id: "edge-7AHBgVAG",
-                        connection: "conn-NSDzLx74"
-                    },
-                    {
-                        _id: "edge-Uni2wUcV",
-                        connection: "conn-eYWVlwoQ"
-                    },
-                    {
-                        _id: "edge-Ra7jTgeC",
-                        connection: "conn-fvXRZJRY"
-                    },
-                    {
-                        _id: "edge-R9dX2O1D",
-                        connection: "conn-mlSY0q0Z"
-                    },
-                    {
-                        _id: "edge-K2MYzmHj",
-                        connection: "conn-Pv7cF6gX"
-                    },
-                    {
-                        _id: "edge-xZSFtArG",
-                        connection: "conn-PLh0XHyX"
-                    },
-                    {
-                        _id: "edge-QasKcj13",
-                        connection: "conn-g7MNvHfO"
-                    },
-                    {
-                        _id: "edge-bobC60Sl",
-                        connection: "conn-wBSYU0i0"
-                    },
-                    {
-                        _id: "edge-HzXHp5zP",
-                        connection: "conn-AKdQSsg9"
-                    },
-                    {
-                        _id: "edge-JYLLCHAc",
-                        connection: "conn-u40uKztj"
-                    },
-                    {
-                        _id: "edge-fY9QvAzL",
-                        connection: "conn-4ph9O8b0"
-                    },
-                    {
-                        _id: "edge-mzF2duI5",
-                        connection: "conn-fwrk2gnd"
-                    },
-                    {
-                        _id: "edge-853xnX37",
-                        connection: "conn-I0tlVlFb"
-                    },
-                    {
-                        _id: "edge-QXSucXQ1",
-                        connection: "conn-bp61K7F3"
-                    },
-                    {
-                        _id: "edge-W1OEazhi",
-                        connection: "conn-niQeMtFW"
-                    },
-                    {
-                        _id: "edge-NZxDUS4q",
-                        connection: "conn-G1aa4Zez"
-                    },
-                    {
-                        _id: "edge-O19RHah5",
-                        connection: "conn-K3QUkSVA"
-                    },
-                    {
-                        _id: "edge-BJ5YXKe9",
-                        connection: "conn-RUxdQWlk"
-                    },
-                    {
-                        _id: "edge-wsmSX3sU",
-                        connection: "conn-kJq2hC8g"
-                    },
-                    {
-                        _id: "edge-vmQlVFjw",
-                        connection: "conn-jt8xqItj"
-                    },
-                    {
-                        _id: "edge-vllQMdrq",
-                        connection: "conn-ymqUQBnV"
-                    },
-                    {
-                        _id: "edge-3EvwFiIB",
-                        connection: "conn-LWd86hR6"
-                    },
-                    {
-                        _id: "edge-CELMqJVJ",
-                        connection: "conn-1Ten60Kj"
-                    },
-                    {
-                        _id: "edge-EzJdwyne",
-                        connection: "conn-8v8yiWvx"
-                    },
-                    {
-                        _id: "edge-xH17By45",
-                        connection: "conn-4ICtNCsL"
-                    },
-                    {
-                        _id: "edge-XiEMJd0E",
-                        connection: "conn-drKU6fIh"
-                    },
-                    {
-                        _id: "edge-o5F7XnFE",
-                        connection: "conn-Af1t5YkY"
-                    },
-                    {
-                        _id: "edge-9XdA0Kdz",
-                        connection: "conn-NtjBw9SS"
-                    },
-                    {
-                        _id: "edge-1s7D9tXC",
-                        connection: "conn-Tgh91b5G"
-                    },
-                    {
-                        _id: "edge-DIqo60xb",
-                        connection: "conn-UZn3bc4e"
-                    },
-                    {
-                        _id: "edge-3ppmxPZ9",
-                        connection: "conn-nXaGmSF1"
-                    },
-                    {
-                        _id: "edge-VC1qIMez",
-                        connection: "conn-w7RneLzb"
-                    },
-                    {
-                        _id: "edge-5TXBRkGA",
-                        connection: "conn-etHnDo4R"
-                    },
-                    {
-                        _id: "edge-cXlB7gmf",
-                        connection: "conn-dh8kjeW9"
-                    },
-                    {
-                        _id: "edge-4YgYijWt",
-                        connection: "conn-iSIdbbZI"
-                    },
-                    {
-                        _id: "edge-rbO0obcG",
-                        connection: "conn-knBaZWtX"
-                    },
-                    {
-                        _id: "edge-f66t1wDU",
-                        connection: "conn-rL6JHk8W"
-                    },
-                    {
-                        _id: "edge-u9WUBqBC",
-                        connection: "conn-1wZXjJpI"
-                    },
-                    {
-                        _id: "edge-POCRLwyC",
-                        connection: "conn-fsvtPkBh"
-                    },
-                    {
-                        _id: "edge-52jv2Wxq",
-                        connection: "conn-2Og7ocsa"
-                    },
-                    {
-                        _id: "edge-K8dy7d5h",
-                        connection: "conn-Yxmx6CJf"
-                    },
-                    {
-                        _id: "edge-z6FcgVdP",
-                        connection: "conn-LnSXzNO8"
-                    },
-                    {
-                        _id: "edge-3mMSwAi9",
-                        connection: "conn-zmxaAYa0"
-                    },
-                    {
-                        _id: "edge-hYjt0QOA",
-                        connection: "conn-1MixnqmE"
-                    },
-                    {
-                        _id: "edge-qDqov6aw",
-                        connection: "conn-Zl0kJnAf"
-                    },
-                    {
-                        _id: "edge-gMHKHl1c",
-                        connection: "conn-ImJ1Ojju"
-                    },
-                    {
-                        _id: "edge-nvIfAdcF",
-                        connection: "conn-hYH0tCmO"
-                    },
-                    {
-                        _id: "edge-p2cdLYyx",
-                        connection: "conn-EtqwwxXe"
-                    },
-                    {
-                        _id: "edge-XCyiQEBN",
-                        connection: "conn-Ck4ZArAp"
-                    },
-                    {
-                        _id: "edge-hk9J5kuU",
-                        connection: "conn-PnlsQje6"
-                    },
-                    {
-                        _id: "edge-SUbOzVmd",
-                        connection: "conn-ndyZ5Iot"
-                    },
-                    {
-                        _id: "edge-qTViUhcJ",
-                        connection: "conn-FR5lcUw6"
-                    },
-                    {
-                        _id: "edge-rDFO2v4c",
-                        connection: "conn-Oqc8IoJW"
-                    },
-                    {
-                        _id: "edge-oA6AR04j",
-                        connection: "conn-l8IgwGNO"
-                    },
-                    {
-                        _id: "edge-6TVcr8qa",
-                        connection: "conn-esd7SCdo"
-                    },
-                    {
-                        _id: "edge-bXX6btls",
-                        connection: "conn-MUQSW0Fn"
-                    },
-                    {
-                        _id: "edge-ij8Inwjh",
-                        connection: "conn-iFYA0F8V"
-                    },
-                    {
-                        _id: "edge-VK0AK5aK",
-                        connection: "conn-XFL6SU5N"
-                    },
-                    {
-                        _id: "edge-ixVlARRM",
-                        connection: "conn-O1MTjIWL"
-                    },
-                    {
-                        _id: "edge-ufaXhOJn",
-                        connection: "conn-VNrqhjge"
-                    },
-                    {
-                        _id: "edge-72irXQKw",
-                        connection: "conn-R5PquQcW"
-                    },
-                    {
-                        _id: "edge-W8Lf69QX",
-                        connection: "conn-Kra3QQAp"
-                    },
-                    {
-                        _id: "edge-q2HEqgKt",
-                        connection: "conn-6HV9i7Tw"
-                    },
-                    {
-                        _id: "edge-DTkpkPI9",
-                        connection: "conn-1fZiJkD5"
-                    },
-                    {
-                        _id: "edge-222MBkVc",
-                        connection: "conn-km6fUhqf"
-                    },
-                    {
-                        _id: "edge-w2nnZJhR",
-                        connection: "conn-bPk2XiM6"
-                    }
-                ],
+                connections: [],
                 loops: []
             }
         ],
         perspectives: [
             {
                 _id: "pers-c8r3yyir",
-                name: "Current",
+                name: "Act III",
                 style: "@settings {\n  template: stakeholder;\n  theme: dark;\n  layout: static;\n}\n\n/* ===== ELEMENTS ============= */\nelement {\n  image-size: contain;\n  image-visibility: visible;\n  outline-offset: 0;\n  shadow-opacity: 0;\n  font-size: 40;\n  font-family: Voltaire;\n  shadow-color: white;\n  text-overflow: wrap 7;\n}\n\nelement[\"Label\"=\"Anarchs\"] {\n  color: #FE94A1;\n  border-color: #6D000D;\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/d/de/AnarchV5.png);\n  shadow-size: 6;\n  shadow-color: #BB0016;\n}\n\nelement[\"Label\"=\"Camarilla\"] {\n  color: #FFDC95;\n  border-color: #724C00;\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/b/b6/SymbolCamarillaV5.png);\n  shadow-size: 4;\n  shadow-color: #C38200;\n}\n\nelement[\"Label\"=\"Sabbat\"] {\n  color: #B09EFA;\n  border-color: #11024E;\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/1/1d/LogoSectSabbat.png);\n  shadow-size: 2;\n  shadow-color: #260F86;\n}\n\nelement[\"Label\"=\"Mortals\"] {\n  color: #8E9C9A;\n  border-color: #334E4B;\n  image-url: url(https://i.pinimg.com/originals/7e/39/10/7e3910c4a662d94a2d7b463ed6c1055e.png);\n  shadow-size: 2.5;\n  shadow-color: #4E6361;\n}\n\nelement[\"Label\"=\"Second Inquisition\"] {\n  color: #BBB897;\n  border-color: #E0D453;\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/5/59/SymbolSecondInquisition.png/revision/latest?cb=20190519043956);\n  shadow-size: 3;\n  shadow-color: #FFFCDA;\n}\n\nelement[\"Label\"=\"Independent\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/c/cc/LogoVampireAnkh.png/revision/latest?cb=20140102051635);\n  shadow-size: 3.5;\n  shadow-color: #696969;\n}\n\nelement[\"Affiliation\"=\"Anarchs\"] {\n  color: #6D000D;\n  border-color: #6D000D;\n}\n\nelement[\"Affiliation\"=\"Camarilla\"] {\n  color: #724C00;\n  border-color: #724C00;\n}\n\nelement[\"Affiliation\"=\"Sabbat\"] {\n  color: #11024E;\n  border-color: #11024E;\n}\n\nelement[\"Affiliation\"=\"Mortals\"] {\n  color: #334E4B;\n  border-color: #334E4B;\n}\n\nelement[\"Affiliation\"=\"Second Inquisition\"] {\n  color: #E0D453;\n  border-color: #E0D453;\n  font-color: orange;\n}\n\nelement[\"Element Type\"*=\"Organization\"] {\n  border-width: 0;\n  size: 70;\n  font-size: 50;\n  text-align: center;\n  font-weight: bold;\n}\n\nkindred {\n  flag: statusflag with reds;\n}\n\nelement[\"Category\"=\"Faction\"], element[\"Category\"=\"Grouping\"] {\n  border-width: 10;\n  size: 200;\n  label-visibility: hidden;\n  shadow-opacity: 0.1;\n}\n\nelement[\"Category\"=\"Subgroup\"] {\n  color: transparent;\n  size: 100;\n  border-width: 10;\n  font-size: 70;\n  text-overflow: wrap 1;\n}\n\nelement[\"StatusNum\"=0] {\n  size: 30;\n}\n\nelement[\"StatusNum\"=1] {\n  size: 40;\n}\n\nelement[\"StatusNum\"=2] {\n  size: 50;\n}\n\nelement[\"StatusNum\"=3] {\n  size: 60;\n}\n\nelement[\"StatusNum\"=4] {\n  size: 80;\n  font-size: 50;\n}\n\nelement[\"StatusNum\"=5], element[\"Affiliation\"=\"Autarkis\"] {\n  size: 100;\n  font-size: 60;\n}\n\n/* ===== CONNECTIONS ============= */\nconnection {\n  strength: 1;\n  size: 8;\n  arrow-visibility: hidden;\n  curvature: 0;\n}\n\nconnection[\"Connection Type\"=\"Boss\"] {\n  border-width: 2;\n  border-opacity: 1;\n  border-color: white;\n  arrow-visibility: visible;\n  arrow-color: white;\n  arrow-width: 6;\n  arrow-height: 6;\n}\n\nconnection[\"Connection Type\"=\"Regnant\"], connection[\"Connection Type\"=\"Sire\"] {\n  strength: 0;\n  style: dashed;\n  arrow-visibility: visible;\n  arrow-width: 4;\n  arrow-height: 4;\n}\n\n/* ===== IMAGES ================== */\nelement[\"Affiliation\"=\"Second Inquisition\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/5/59/SymbolSecondInquisition.png/revision/latest?cb=20190519043956);\n}\n\nelement[\"Clan\"=\"Brujah\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/0/0b/SymbolClanBrujahV5.png/revision/latest?cb=20180728213654);\n}\n\nelement[\"Clan\"=\"Gangrel\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/d/d8/SymbolClanGangrelV5.png/revision/latest?cb=20180728213714);\n}\n\nelement[\"Clan\"=\"Malkavian\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/d/d2/SymbolClanMalkavianV5.png/revision/latest?cb=20180728213734);\n}\n\nelement[\"Clan\"=\"Nosferatu\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/6/6e/SymbolClanNosferatuV5.png/revision/latest?cb=20180728213808);\n}\n\nelement[\"Clan\"=\"Toreador\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/c/c3/SymbolClanToreadorV5.png/revision/latest?cb=20180728213828);\n}\n\nelement[\"Clan\"=\"Tremere\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/7/7b/SymbolClanTremereV5.png/revision/latest?cb=20180728213847);\n}\n\nelement[\"Clan\"=\"Ventrue\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/a/ad/SymbolClanVentrueV5.png/revision/latest?cb=20180728213913);\n}\n\nelement[\"Clan\"=\"Lasombra\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/f/fa/LogoClanLasombraV5.png/revision/latest?cb=20190725175100);\n}\n\nelement[\"Clan\"=\"Tzimisce\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/8/89/LogoClanTzimisce.png/revision/latest?cb=20090120044552);\n}\n\nelement[\"Clan\"=\"Banu Haqim\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/1/16/SymbolClanBanuHaqim.png);\n}\n\nelement[\"Clan\"=\"Ministry\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/0/01/SymbolMinistryV5.png/revision/latest?cb=20190607221027);\n}\n\nelement[\"Clan\"=\"Hecata\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/1/1a/SymbolHecataClassic.png/revision/latest?cb=20200114211201);\n}\n\nelement[\"Clan\"=\"Caitiff\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/5/55/LogoBloodlineCaitiff.png/revision/latest?cb=20170811183452);\n}\n\nelement[\"Clan\"=\"Thin-Blooded\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/f/fc/SymbolThinBloodsV5.png/revision/latest?cb=20190725180822);\n}\n\nelement[\"Element Type\"=\"Ghoul\"] {\n  image-url: url(https://vignette.wikia.nocookie.net/whitewolf/images/1/13/VTMGhouls.png/revision/latest?cb=20090201223141);\n}\n\nelement[\"tags\"*=\"PC\"] {\n  size: 60;\n  font-size: 60;\n  border-width: 20;\n  border-color: white;\n}\n\nelement[\"tags\"*=\"Dead\"] {\n  opacity: 0.3;\n  font-color: grey;\n  color: grey;\n}\n\nkindred.boss {\n  display: map;\n}\n\n"
             }
         ]
@@ -6270,7 +2573,7 @@ const KUMUDATA = {
         else
             console.log("Everything OK!")
     },
-    getElementIDs = () => KUMUDATA.elements.map(x => x._id) // ,
+    getElementIDs = () => KUMUDATA.elements.map(x => x._id),
     // verifyConnections = () => {
     //     const elementIDs = getElementIDs(),
     //         errorLog = []
@@ -6278,6 +2581,28 @@ const KUMUDATA = {
 
     //     }
     // }
+    checkMapElements = () => {
+        const elemIDs = getElementIDs(),
+            mapElements = [...KUMUDATA.maps[0].elements],
+            mapElemIDs = mapElements.map(x => x.element),
+            errorLog = []
+        for (let i = 0; i < mapElemIDs.length; i++) {
+            const id = mapElemIDs[i]
+            if (!elemIDs.includes(id))
+                errorLog.push(`ID '${id}' Not Found!`)
+        }        
+        console.log(`${mapElemIDs.length} Elements Checked...`)
+        if (errorLog.length)
+            console.log(`${errorLog.length} Problems found:\n\n${errorLog.join("\n")}`)
+        else
+            console.log("Everything OK!")
+    },
+    outputJSONFile = () => {
+        const JSONdata = JSON.stringify(KUMUDATA)
+        fs.writeFile("kumu-eunomiac-vampire-toronto-by-night-NEW.json", JSONdata, "utf-8", () => {
+            console.log("File Write Complete!")
+        })
+    }
 
 duplicateLabelCheck(KUMUDATA.elements)
 duplicatePropertyCheck(KUMUDATA.elements)
@@ -6286,3 +2611,7 @@ attributeVerification(KUMUDATA.elements)
 duplicateLabelCheck(KUMUDATA.connections)
 duplicatePropertyCheck(KUMUDATA.connections)
 attributeVerification(KUMUDATA.connections)
+
+checkMapElements()
+
+outputJSONFile()
